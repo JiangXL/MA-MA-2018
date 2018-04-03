@@ -47,6 +47,23 @@
   \<#8FD9\>\<#91CC\> <math|\<partial\>\<Omega\>> \<#8868\>\<#793A\>
   <math|\<Omega\>> \<#7684\>\<#8FB9\>\<#754C\>\<#FF0C\>
   <math|\<partial\>\<Omega\>> \<#6309\>\<#5916\>\<#6CD5\>\<#7EBF\>\<#65B9\>\<#5411\>\<#6765\>\<#5B9A\>\<#5411\>\<#3002\>
+
+  \<#5B9A\>\<#7406\> 18.2(Stockes \<#516C\>\<#5F0F\>) \<#8BBE\>
+  <math|\<Sigma\>> \<#662F\>\<#7531\>\<#6709\>\<#9650\>\<#5757\>\<#4E8C\>\<#9636\>\<#8FDE\>\<#7EED\>\<#53EF\>\<#5FAE\>\<#7684\>\<#6B63\>\<#5219\>\<#66F2\>\<#9762\>\<#62FC\>\<#63A5\>\<#800C\>\<#6210\>\<#7684\>\<#5B9A\>\<#5411\>\<#66F2\>\<#9762\>\<#FF0C\>\<#5982\>\<#679C\>
+  <math|P,Q \<#548C\> R> \<#662F\>\<#5B9A\>\<#4E49\>\<#5728\>
+  <math|\<Sigma\>> \<#4E0A\>\<#7684\>\<#8FDE\>\<#7EED\>\<#53EF\>\<#5FAE\>\<#51FD\>\<#6570\>\<#FF0C\>\<#90A3\>\<#4E48\>
+
+  <\equation*>
+    <tabular|<tformat|<table|<row|<cell|<big|int><rsub|\<partial\>\<Sigma\>>P
+    d x+Q d y+R d z>>|<row|<cell|=<big|int><big|int><rsub|\<Sigma\>><around*|\||<tabular*|<tformat|<table|<row|<cell|d
+    y d z>|<cell|d z d x>|<cell|d x d y>>|<row|<cell|<frac|\<partial\>|\<partial\>x>>|<cell|>|<cell|>>>>>|\|>>>>>>
+  </equation*>
+
+  \;
+
+  \;
+
+  \<#590D\>\<#4E60\>\<#591A\>\<#91CD\>\<#79EF\>\<#5206\>
 </body>
 
 <initial|<\collection>
@@ -64,16 +81,15 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#66F2\>\<#9762\>\<#7684\>\<#79EF\>\<#5206\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#7B2C\>\<#4E8C\>\<#578B\>\<#66F2\>
-
-      \;> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#7B2C\>\<#4E00\>\<#578B\>\<#66F2\>\<#9762\>\<#79EF\>\<#5206\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>18.3
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#7B2C\>\<#4E8C\>\<#578B\>\<#66F2\>\<#9762\>\<#79EF\>\<#5206\>
 
       \;> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.5fn>

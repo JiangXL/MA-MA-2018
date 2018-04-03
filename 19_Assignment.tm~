@@ -13,7 +13,7 @@
 
   (4) <math|<tabular|<tformat|<table|<row|<cell|\<nabla\><around*|(|f<around*|(|p|)><with|font-series|bold|p\<cdot\>a>|)>>|<cell|=>>>>>>
 
-  4.
+  4. <math|>
 
   \;
 

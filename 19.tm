@@ -16,6 +16,12 @@
 
   <section|\<#5411\>\<#91CF\>\<#573A\>\<#7684\>\<#6563\>\<#5EA6\><math|\<longrightarrow\>>\<#6570\>\<#91CF\>\<#573A\>>
 
+  \<#8BBE\> <math|D\<subset\><with|font-series|bold|R<rsup|3>>>
+  \<#4E3A\>\<#533A\>\<#57DF\>\<#FF0C\>\<#5728\> <with|font-shape|italic|D>
+  \<#4E0A\>\<#5B9A\>\<#4E49\>\<#7740\>\<#4E00\>\<#4E2A\>\<#5411\>\<#91CF\>\<#573A\>
+  <math|<with|font-series|bold|F>=<around*|(|P,Q,R|)>>.
+  \<#53C8\>\<#8BBE\>\<#66F2\>\<#9762\>
+
   <\equation*>
     <big|int><big|int><rsub|\<Sigma\>>
   </equation*>
@@ -33,6 +39,20 @@
   <\equation*>
     \<Delta\>=<with|font-series|bold|\<nabla\><rsup|2>=\<nabla\>\<cdot\>\<nabla\>>=<frac|\<partial\><rsup|2>|\<partial\>x<rsup|2>>+<frac||>
   </equation*>
+
+  \<#89C4\>\<#5219\>:
+
+  <\enumerate-roman>
+    <item>
+
+    <item>
+
+    <item>\<#8BBE\> <math|\<varphi\>> \<#662F\>\<#6570\>\<#91CF\>\<#573A\>\<#FF0C\>\<#90A3\>\<#4E48\>
+
+    <\equation*>
+      <with|font-series|bold|\<nabla\>>\<cdot\>\<varphi\><with|font-series|bold|F>=\<varphi\><with|font-series|bold|\<nabla\>>\<cdot\><with|font-series|bold|F>+<with|font-series|bold|F>\<cdot\>
+    </equation*>
+  </enumerate-roman>
 
   <section|\<#5411\>\<#91CF\>\<#573A\>\<#7684\>\<#65CB\>\<#5EA6\>>
 
@@ -61,7 +81,7 @@
     <item>\<#8BBE\> <math|\<varphi\>> \<#662F\>\<#6570\>\<#91CF\>\<#51FD\>\<#6570\>\<#FF0C\>
     <math|<with|font-series|bold|\<nabla\>>\<times\><around*|(|\<varphi\><with|font-series|bold|F>|)>=<with|font-series|bold|\<nabla\>>\<varphi\>\<times\><with|font-series|bold|F>+\<varphi\><with|font-series|bold|\<nabla\>\<times\>F>>
 
-    <item><math|<with|font-series|bold|\<nabla\>>\<cdot\><around*|(|<with|font-series|bold|F<rsub|1>\<times\>F<rsub|2>>|)>=>
+    <item><math|<with|font-series|bold|\<nabla\>>\<cdot\><around*|(|<with|font-series|bold|F<rsub|1>\<times\>F<rsub|2>>|)>=<around*|(|\<nabla\>\<times\>F<rsub|1>|)>\<cdot\>F<rsub|2>->
 
     <item>
 
@@ -100,7 +120,7 @@
 
   <with|font-series|bold|\<#5B9A\>\<#7406\> 19.1> \<#8BBE\> <math|F>
   \<#662F\>\<#5B9A\>\<#4E49\>\<#5728\>\<#533A\>\<#57DF\>
-  <math|D\<subset\>R<rsup|3>> \<#4E0A\>\<#7684\>\<#4E00\>\<#4E2A\>\<#5411\>\<#91CF\>\<#573A\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#53EF\>\<#4EE5\>\<#4ECE\>\<#4E0B\>\<#9762\>\<#4EFB\>\<#610F\>\<#4E00\>\<#6761\>\<#63A8\>\<#5BFC\>\<#51FA\>\<#5176\>\<#4ED6\>\<#4E24\>\<#6761\>\<#3002\>
+  <math|D\<subset\>R<rsup|3>> \<#4E0A\>\<#7684\>\<#4E00\>\<#4E2A\>\<#5411\>\<#91CF\>\<#573A\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#53EF\>\<#4EE5\>\<#4ECE\>\<#4E0B\>\<#9762\>\<#4EFB\>\<#610F\>\<#4E00\>\<#6761\>\<#63A8\>\<#5BFC\>\<#51FA\>\<#5176\>\<#4ED6\>\<#4E24\>\<#6761\>\<#3002\>(\<#5355\>\<#8FDE\>\<#901A\>)
 
   <\enumerate-roman>
     <item><math|F> \<#662F\>\<#6709\>\<#52BF\>\<#573A\>
