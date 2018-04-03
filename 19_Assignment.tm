@@ -7,8 +7,20 @@
     <date|>
   </author-affiliation>>>>
 
+  <section|\<#5411\>\<#91CF\>\<#573A\>\<#7684\>\<#68AF\>\<#5EA6\>>
+
+  3.(1)
+
+  \;
+
   \;
 </body>
 
 <initial|<\collection>
 </collection>>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|1|?>>
+  </collection>
+</references>
