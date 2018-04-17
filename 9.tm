@@ -3,6 +3,10 @@
 <style|<tuple|generic|chinese>>
 
 <\body>
+  09
+
+  `
+
   <doc-data|<doc-title|9. \<#6570\>\<#9879\>\<#7EA7\>\<#6570\>>|<doc-author|<author-data|<author-name|\<#6C5F\>\<#5FC3\>\<#5E90\>>|<\author-affiliation>
     <date|>
   </author-affiliation>>>>
@@ -253,9 +257,71 @@
 
   \<#66F4\>\<#9002\>\<#5408\>\<#4E8E\>\<#901A\>\<#9879\>\<#91CC\>\<#5E26\>\<#6709\>\<#9636\>\<#4E58\>\<#7684\>\<#7EA7\>\<#6570\>\<#3002\>
 
-  \<#5B9A\>\<#7406\>\ 
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 9.14> \<#8BBE\>
+  <math|a<rsub|n>\<gtr\>0,n=1,2,\<ldots\>,> \<#5219\>
+
+  <\equation*>
+    lim<rsub|n\<rightarrow\>\<infty\>>inf<frac|a<rsub|n+1>|a<rsub|n>>\<leqslant\>lim<rsub|n\<rightarrow\>\<infty\>>inf
+    <rsup|n><sqrt|a<rsub|n>>\<leqslant\>lim<rsub|n\<rightarrow\>\<infty\>>sup
+    <rsup|n><sqrt|a<rsub|n>>\<leqslant\>lim<rsub|n\<rightarrow\>\<infty\>>sup<frac|a<rsub|n+1>|a<rsub|n>>
+  </equation*>
+
+  \<#8981\>\<#5B66\>\<#4F1A\>\<#8BC1\>\<#660E\>\<#3002\>
+
+  \<#5B9A\>\<#7406\> 9.15 (Raabe \<#5224\>\<#522B\>\<#6CD5\>) \<#8BBE\>
+  <math|a<rsub|n>\<gtr\>0>, <math|n=1,2,\<ldots\>>
+
+  <\enumerate-roman>
+    <item>\<#5982\>\<#679C\>\<#5B58\>\<#5728\> <math|r\<gtr\>1>,
+    \<#4F7F\>\<#5F97\>\<#5F53\> <math|n<rsub|0>>\<#65F6\>\<#FF0C\><math|n<around*|(|<frac|a<rsub|n>|a<rsub|n+1>>-1|)>\<geqslant\>r\<geqslant\>1>,
+    \<#5219\>\<#6536\>\<#655B\>\<#3002\>
+
+    <item>\<#5982\>\<#679C\>\<#5BF9\>\<#5145\>\<#5206\>\<#5927\>\<#7684\>
+    <math|n> \<#90FD\>\<#6709\> <math|n<around*|(|<frac|a<rsub|n>|a<rsub|n+1>>-1|)>\<leqslant\>1>,
+    \<#5219\>\<#7EA7\>\<#6570\> <math|<big|sum><rsub|n=1><rsup|\<infty\>>a<rsub|n>>
+    \<#53D1\>\<#6563\>\<#3002\>
+  </enumerate-roman>
+
+  \<#5B9A\>\<#7406\> 9.16 (Raabe \<#5224\>\<#522B\>\<#6CD5\>\<#7684\>\<#6781\>\<#9650\>\<#5F62\>\<#5F0F\>)
+  \<#8BBE\>\<#6B63\>\<#6570\>\<#5217\> <math|<around*|{|a<rsub|n>|}>>
+  \<#6EE1\>\<#8DB3\>\<#6761\>\<#4EF6\>:
+
+  <\equation*>
+    <frac|a<rsub|n>|a<rsub|n+1>>=1+<frac|l|n>+o<around*|(|<frac|1|n>|)>,n\<rightarrow\>\<infty\>,
+  </equation*>
+
+  \<#90A3\>\<#4E48\>\<#FF0C\>\<#5F53\><math|l\<gtr\>1> \<#65F6\>\<#FF0C\>
+  <math|<big|sum>a<rsub|n>> \<#6536\>\<#655B\>\<#FF0C\>\<#82E5\>
+  <math|l\<less\>1> \<#65F6\>\<#FF0C\> <math|<big|sum>a<rsub|n>>
+  \<#53D1\>\<#6563\>\<#3002\>
+
+  \<#5B9A\>\<#7406\> 9.17 (Gauss \<#5224\>\<#522B\>\<#6CD5\>)
+  \<#8BBE\>\<#6B63\>\<#9879\>\<#6570\>\<#5217\>
+  <math|<around*|{|a<rsub|n>|}>> \<#6EE1\>\<#8DB3\>\<#6761\>\<#4EF6\>
+
+  <\equation*>
+    <frac|a<rsub|n>|a<rsub|n+1>>=1+<frac|1|n>+<frac|\<beta\>|n ln
+    n>+\<omicron\><around*|(|<frac|1|n ln n>|)>,n\<rightarrow\>\<infty\>,
+  </equation*>
+
+  \<#90A3\>\<#4E48\>\<#5F53\> <math|\<beta\>\<gtr\>1> \<#65F6\>\<#FF0C\>
+  <math|<big|sum>a<rsub|n>>\<#6536\>\<#655B\>\<#FF1B\>\<#5F53\>
+  <math|\<beta\>\<less\>1> \<#65F6\>\<#FF0C\> <math|<big|sum>a<rsub|n>>
+  \<#53D1\>\<#6563\>\<#3002\>
+
+  \<#603B\>\<#80FD\>\<#6784\>\<#9020\>\<#80FD\>\<#5224\>\<#65AD\>\<#6536\>\<#655B\>\<#901F\>\<#5EA6\>\<#66F4\>\<#6162\>\<#7684\>\<#6570\>\<#5217\>\<#7684\>\<#5224\>\<#636E\>\<#3002\>
+
+  <\equation*>
+    n,<around*|(|In n|)><rsup|p>,n In n<around*|(|In In n|)><rsup|p>
+  </equation*>
+
+  \;
+
+  \;
 
   <section|\<#4E00\>\<#822C\>\<#7EA7\>\<#6570\>>
+
+  \;
 
   \<#5B9A\>\<#7406\> 9.18: \<#7EA7\>\<#6570\>
   <math|<big|sum><rsub|n=1><rsup|\<infty\>>a<rsub|n>>
@@ -269,9 +335,6 @@
 
   \;
 </body>
-
-<initial|<\collection>
-</collection>>
 
 <\references>
   <\collection>
