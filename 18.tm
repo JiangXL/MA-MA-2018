@@ -10,6 +10,12 @@
     \;
 
     \;
+  <|author-data>
+    \;
+
+    \;
+
+    \;
 
     \;
   </author-data>>>
@@ -18,7 +24,9 @@
 
   <section|\<#7B2C\>\<#4E00\>\<#578B\>\<#66F2\>\<#9762\>\<#79EF\>\<#5206\>>
 
-  \;
+  <\equation*>
+    <big|int><rsub|\<Sigma\>>Fd \<sigma\>=<big|int><with|font-series|bold|>
+  </equation*>
 
   <\section>
     \<#7B2C\>\<#4E8C\>\<#578B\>\<#66F2\>\<#9762\>\<#79EF\>\<#5206\>
@@ -27,7 +35,8 @@
   </section>
 
   <\equation*>
-    <big|int><rsub|\<Sigma\>><around*|(|<with|font-series|bold|F\<cdot\>n>|)>d<with|font-series|bold|\<sigma\>>
+    <big|int><rsub|\<Sigma\>><with|font-series|bold|F>d
+    <with|font-series|bold|\<sigma\>>=<big|int><rsub|\<Sigma\>><around*|(|<with|font-series|bold|F\<cdot\>n>|)>d<with|font-series|bold|\<sigma\>>
   </equation*>
 
   <section|Gauss \<#516C\>\<#5F0F\>\<#548C\> Stokes \<#516C\>\<#5F0F\>>
@@ -55,8 +64,9 @@
 
   <\equation*>
     <tabular|<tformat|<table|<row|<cell|<big|int><rsub|\<partial\>\<Sigma\>>P
-    d x+Q d y+R d z>>|<row|<cell|=<big|int><big|int><rsub|\<Sigma\>><around*|\||<tabular*|<tformat|<table|<row|<cell|d
-    y d z>|<cell|d z d x>|<cell|d x d y>>|<row|<cell|<frac|\<partial\>|\<partial\>x>>|<cell|>|<cell|>>>>>|\|>>>>>>
+    d x+Q d y+R d z>>|<row|<cell|=<big|int><big|int><rsub|\<Sigma\>>\<pm\><around*|\||<tabular*|<tformat|<table|<row|<cell|d
+    y d z>|<cell|d z d x>|<cell|d x d y>>|<row|<cell|<frac|\<partial\>|\<partial\>x>>|<cell|<frac|\<partial\>|\<partial\>y>>|<cell|<frac|\<partial\>|\<partial\>z>>>|<row|<cell|P>|<cell|Q>|<cell|R>>>>>|\|>>>|<row|<cell|=<big|int><rsub|\<partial\>\<Sigma\>><with|font-series|bold|F>
+    d<with|font-series|bold|p>=>>>>>
   </equation*>
 
   \;

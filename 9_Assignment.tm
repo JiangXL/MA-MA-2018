@@ -34,7 +34,45 @@
   <section|\<#6B63\>\<#9879\>\<#7EA7\>\<#6570\>\<#7684\>\<#5176\>\<#4ED6\>\<#5224\>\<#522B\>\<#6CD5\>>
 
   1.\<#FF08\>1\<#FF09\>
+
+  (5) <math|<big|sum><rsub|n=1><rsup|\<infty\>><frac|n<rsup|n+<frac|1|n>>|<around*|(|n+<frac|1|n>|)><rsup|n>>>=\<#53D1\>\<#6563\>
+
+  (8) <math|<big|sum><rsub|n=2><rsup|\<infty\>>>
+  <math|lim<rsub|n\<rightarrow\>\<infty\>><frac|<around*|(|ln n
+  |)><rsup|2>|n>=0>
+
+  \;
+
+  5.\ 
+
+  (1) <math|<big|sum><rsub|n=1><rsup|\<infty\>><around*|(|<frac|1|<sqrt|n>>-|)>>
+
+  (2) <math|<big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsup|<frac|1|n>>-<frac|b<rsup|<frac|1|n>>+c<rsup|<frac|1|n>>|2>|)>,a\<gtr\>0,b\<gtr\>0,c\<gtr\>0;>
+
+  <\equation*>
+    <tabular|<tformat|<table|<row|<cell|a<rsup|<frac|1|n>>-<frac|b<rsup|<frac|1|n>>+c<rsup|<frac|1|n>>|2>=<frac|a<rsup|<frac|1|n>>-b<rsup|<frac|1|n>>|2>+<frac|a<rsup|<frac|1|n>>-c<rsup|<frac|1|n>>|2>>>|<row|<cell|lim<rsub|n\<rightarrow\>\<infty\>><frac|a<rsup|>|>>>>>>
+  </equation*>
+
+  (3)<math|e<rsup|x>-1\<sim\>x,x\<rightarrow\>\<infty\>>
+
+  <\equation*>
+    <tabular|<tformat|<table|<row|<cell|<big|sum><rsub|n=1><rsup|\<infty\>><around*|(|n<rsup|<frac|1|n<rsup|2>+1>>-1|)>>|<cell|=<big|sum><rsub|n=1><rsup|\<infty\>><around*|(|e<rsup|<frac|ln
+    n|n<rsup|2>+1>>-1|)>>>|<row|<cell|>|<cell|=<big|sum>>>>>>
+  </equation*>
+
+  <\equation*>
+    \;
+
+    \;
+  </equation*>
+
+  \;
+
+  \;
 </body>
+
+<initial|<\collection>
+</collection>>
 
 <\references>
   <\collection>
@@ -77,6 +115,10 @@
       <with|par-left|<quote|1tab>|2.2<space|2spc>(1)
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#6B63\>\<#9879\>\<#7EA7\>\<#6570\>\<#7684\>\<#5176\>\<#4ED6\>\<#5224\>\<#522B\>\<#6CD5\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-7><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
