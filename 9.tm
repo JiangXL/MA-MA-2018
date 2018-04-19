@@ -473,7 +473,7 @@
 
   <section|\<#7EDD\>\<#5BF9\>\<#6536\>\<#655B\>\<#548C\>\<#6761\>\<#4EF6\>\<#6536\>\<#655B\>>
 
-  \<#5B9A\>\<#7406\> 9.22 \<#5982\>\<#679C\>
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 9.22> \<#5982\>\<#679C\>
   <math|<big|sum><rsub|n=1><rsup|\<infty\>><around*|\||a<rsub|n>|\|>>
   \<#6536\>\<#655B\>\<#FF0C\> \<#90A3\>\<#4E48\>
   <math|<big|sum><rsub|k=1><rsup|\<infty\>>a<rsub|n>>
@@ -486,7 +486,61 @@
   \<#6536\>\<#655B\>\<#FF0C\>\<#800C\> <math|<big|sum><rsub|k=1><rsup|\<infty\>><around*|\||a<rsub|n>|\|>>
   \<#53D1\>\<#6563\>\<#FF0C\>\<#5219\>\<#79F0\>\<#6761\>\<#4EF6\>\<#6536\>\<#655B\>\<#3002\>
 
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 9.23>
+  \<#4EA4\>\<#6362\>\<#7EDD\>\<#5BF9\>\<#6536\>\<#655B\>\<#7EA7\>\<#6570\>\<#4E2D\>\<#65E0\>\<#7A77\>\<#591A\>\<#9879\>\<#7684\>\<#6B21\>\<#5E8F\>\<#FF0C\>\<#6240\>\<#5F97\>\<#7684\>\<#65B0\>\<#7EA7\>\<#6570\>\<#4ECD\>\<#7136\>\<#7EDD\>\<#5BF9\>\<#6536\>\<#655B\>\<#FF0C\>\<#5176\>\<#548C\>\<#4E5F\>\<#4E0D\>\<#53D8\>\<#3002\>
+
+  \<#610F\>\<#5473\>\<#7740\>\<#4EA4\>\<#6362\>\<#5F8B\>\<#4F9D\>\<#7136\>\<#751F\>\<#6548\>\<#3002\>
+
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 9.24(Riemann)>
+  \<#82E5\>\<#7EA7\>\<#6570\> <math|\<Sigma\><rsub|n=1><rsup|\<infty\>>a<rsub|n>>
+  \<#6761\>\<#4EF6\>\<#6536\>\<#655B\>\<#FF0C\>\<#5219\>\<#9002\>\<#5F53\>\<#4EA4\>\<#6362\>\<#5404\>\<#9879\>\<#7684\>\<#6B21\>\<#5E8F\>\<#FF0C\>\<#53EF\>\<#4F7F\>\<#5176\>\<#6536\>\<#655B\>\<#5230\>\<#4EFB\>\<#4E00\>\<#4E8B\>\<#5148\>\<#6307\>\<#5B9A\>\<#7684\>\<#5B9E\>\<#6570\>
+  <math|S>, \<#4E5F\>\<#53EF\>\<#4F7F\>\<#5176\>\<#53D1\>\<#6563\>\<#5230\><math|+\<infty\>>
+  \<#6216\><math|-\<infty\>>
+
+  \<#4F8B\>\<#5B50\>\<#53EF\>\<#89C1\>\<#4EA4\>\<#9519\>\<#8C03\>\<#548C\>\<#7EA7\>\<#6570\>\<#FF1A\>
+
+  <\equation*>
+    A<rsub|h>=1-<frac|1|2>+<frac|1|3>-<frac|1|4>+\<cdots\>=<big|sum><rsub|n><frac|<around*|(|-1|)><rsup|n+1>|n>
+  </equation*>
+
+  \<#5B83\>\<#6536\>\<#655B\>\<#5230\>\<#5B9A\>\<#503C\>: <math|ln2>.
+  \<#800C\>\<#5B83\>\<#7684\>\<#6BCF\>\<#9879\>\<#7EDD\>\<#5BF9\>\<#503C\>\<#6784\>\<#6210\>\<#7684\>\<#6B63\>\<#9879\>\<#7EA7\>\<#6570\>\<#5374\>\<#662F\>\<#53D1\>\<#6563\>\<#7684\>\<#3002\>
+
+  \;
+
   <section|\<#7EA7\>\<#6570\>\<#7684\>\<#4E58\>\<#6CD5\>>
+
+  \<#67EF\>\<#897F\>\<#4E58\>\<#79EF\>\<#662F\>\<#6307\>\<#4E24\>\<#7EC4\>\<#6570\>\<#5217\>
+  <math|a<rsub|n>,b<rsub|n>> \<#7684\>\<#79BB\>\<#6563\>\<#5377\>\<#79EF\>\<#3002\>
+
+  <\equation*>
+    c<rsub|n>=<big|sum><rsub|k=0><rsup|n>a<rsub|k>b<rsub|n-k>.
+  </equation*>
+
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 9.25 (Cauchy)>
+  \<#5982\>\<#679C\>\<#7EA7\>\<#6570\> <math|<big|sum><rsub|n=1><rsup|\<infty\>>a<rsub|n>>
+  \<#4E0E\> <math|<big|sum><rsub|n=1><rsup|\<infty\>>b<rsub|n>>
+  \<#90FD\>\<#7EDD\>\<#5BF9\>\<#6536\>\<#655B\>\<#FF0C\>\<#5176\>\<#548C\>\<#5206\>\<#522B\>\<#4E3A\>
+  <math|A,B> ,\<#90A3\>\<#4E48\>\<#628A\>
+
+  <\equation*>
+    a<rsub|i>b<rsub|j><space|2em><around*|(|i,j=1,2,\<cdots\>|)>
+  </equation*>
+
+  \<#6309\>\<#4EFB\>\<#610F\>\<#65B9\>\<#5F0F\>\<#76F8\>\<#52A0\>\<#6240\>\<#5F97\>\<#5230\>\<#7684\>\<#7EA7\>\<#6570\>\<#90FD\>\<#662F\>\<#7EDD\>\<#5BF9\>\<#6536\>\<#655B\>\<#7684\>\<#FF0C\>\<#4E14\>\<#5176\>\<#548C\>\<#5C31\>\<#7B49\>\<#4E8E\>
+  <math|A B>.
+
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 9.26 (Mertens)>
+  \<#8BBE\>\<#7EA7\>\<#6570\> <math|<big|sum><rsub|n=1><rsup|\<infty\>>a<rsub|n>,<big|sum><rsub|n=1><rsup|\<infty\>>b<rsub|n>>
+  \<#90FD\>\<#6536\>\<#655B\>\<#FF0C\>\<#5176\>\<#548C\>\<#5206\>\<#522B\>\<#4E3A\>
+  <math|A> \<#548C\> <math|B>. \<#5982\>\<#679C\>\<#81F3\>\<#5C11\>\<#6709\>\<#4E00\>\<#4E2A\>\<#7EDD\>\<#5BF9\>\<#6536\>\<#655B\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5B83\>\<#4EEC\>\<#7684\>
+  Cauchy \<#4E58\>\<#79EF\>\<#6709\>
+
+  <\equation*>
+    <big|sum><rsub|n=1><rsup|\<infty\>>c<rsub|n>=AB,
+  </equation*>
+
+  \<#5176\>\<#4E2D\> <math|c<rsub|n>=<big|sum><rsub|i+j=n+1>a<rsub|i>b<rsub|j>>.
 
   <section|\<#65E0\>\<#7A77\>\<#4E58\>\<#79EF\>>
 
@@ -495,6 +549,10 @@
   <section|\<#7EA7\>\<#6570\>\<#7684\>\<#4E58\>\<#6CD5\>>
 
   <section|\<#65E0\>\<#7A77\>\<#4E58\>\<#79EF\>>
+
+  <section|\<#53C2\>\<#8003\>>
+
+  https://zh.wikipedia.org/wiki/%E6%9D%A1%E4%BB%B6%E6%94%B6%E6%95%9B
 
   \;
 </body>
@@ -509,6 +567,7 @@
   <\collection>
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-10|<tuple|10|5>>
+    <associate|auto-11|<tuple|11|?>>
     <associate|auto-2|<tuple|2|1>>
     <associate|auto-3|<tuple|3|2>>
     <associate|auto-4|<tuple|4|4>>
@@ -562,6 +621,10 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|10<space|2spc>\<#65E0\>\<#7A77\>\<#4E58\>\<#79EF\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-10><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|11<space|2spc>\<#53C2\>\<#8003\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-11><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
