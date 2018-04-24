@@ -384,8 +384,9 @@
   \<#90A3\>\<#4E48\>\<#7EA7\>\<#6570\> <math|<big|sum><rsub|k=1><rsup|\<infty\>>a<rsub|k>
   b<rsub|k>> \<#6536\>\<#655B\>.
 
-  \<#5B9A\>\<#7406\> 9.21 (Abel \<#5224\>\<#522B\>\<#6CD5\>)
-  \<#5982\>\<#679C\> <math|<around*|{|a<rsub|k>|}>,<around*|{|b<rsub|k>|}>>
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 9.21 (Abel
+  \<#5224\>\<#522B\>\<#6CD5\>)> \<#5982\>\<#679C\>
+  <math|<around*|{|a<rsub|k>|}>,<around*|{|b<rsub|k>|}>>
   \<#6EE1\>\<#8DB3\>\<#4E0B\>\<#9762\>\<#4E24\>\<#4E2A\>\<#6761\>\<#4EF6\>:
 
   <\enumerate-roman>

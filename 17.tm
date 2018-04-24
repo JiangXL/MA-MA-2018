@@ -17,10 +17,12 @@
     <big|int><rsub|>=
   </equation*>
 
-  <section|>
+  <section|Green \<#516C\>\<#5F0F\>>
 
   <\equation*>
-    <big|int><rsub|\<partial\>\<Omega\>>
+    <big|int><rsub|\<partial\>\<Omega\>>P d x+Q d
+    y=<big|int><big|int><rsub|\<Omega\>><around*|(|<frac|\<partial\>Q|\<partial\>x>-<frac|\<partial\>P|\<partial\>y>|)>d
+    x d y\ 
   </equation*>
 </body>
 
@@ -38,7 +40,7 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#7B2C\>\<#4E00\>\<#578B\>\<#66F2\>\<#7EBF\>\<#79EF\>\<#5206\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
