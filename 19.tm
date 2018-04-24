@@ -3,24 +3,59 @@
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|19. Field >|<doc-author|<author-data|<author-name|Yuejain
+  <doc-data|<doc-title|19. \<#573A\>\<#7684\>\<#6570\>\<#5B66\>>|<doc-author|<author-data|<author-name|Yuejain
   Mo>|<\author-affiliation>
     <date|>
   </author-affiliation>>>>
 
-  <section|\<#6570\>\<#91CF\>\<#573A\>\<#7684\>\<#68AF\>\<#5EA6\><strong|>>
+  \<#573A\>\<#662F\>\<#6700\>\<#91CD\>\<#8981\>\<#7684\>\<#7269\>\<#7406\>\<#6982\>\<#5FF5\>\<#4E4B\>\<#4E00\>\<#3002\>\<#4EC5\>\<#4ECE\>\<#6570\>\<#5B66\>\<#4E0A\>\<#770B\>\<#6709\>\<#FF0C\>\<#8BBE\>\<#70B9\>\<#96C6\>
+  <math|D\<subset\><with|font-series|bold|R<rsup|3>>>,
+  \<#5982\>\<#679C\>\<#6709\>\<#51FD\>\<#6570\>
+  <math|f:D\<rightarrow\><with|font-series|bold|R>>, \<#5219\>\<#79F0\>
+  <math|f> \<#662F\> <math|D> \<#4E0A\>\<#7684\>\<#4E00\>\<#4E2A\>\<#6570\>\<#91CF\>\<#573A\>\<#FF1B\>\<#5982\>\<#679C\>\<#6709\>
+  <math|<with|font-series|bold|F>:D\<rightarrow\><with|font-series|bold|R<rsup|3>>>,\<#90A3\>\<#4E48\>\<#5C31\>\<#79F0\>
+  <math|<with|font-series|bold|F>> \<#662F\> <math|<with|font-series|bold|D>>
+  \<#4E0A\>\<#7684\>\<#4E00\>\<#4E2A\>\<#5411\>\<#91CF\>\<#573A\>\<#3002\>
+
+  <section|\<#6570\>\<#91CF\>\<#573A\>\<#7684\>\<#68AF\>\<#5EA6\><strong|>(\<#6570\>\<#91CF\>\<#573A\><math|\<rightarrow\>>\<#5411\>\<#91CF\>\<#573A\>)>
 
   <\equation*>
-    <with|font-series|bold|grad> f<around*|(|<with|font-series|bold|p>|)>
+    <with|font-series|bold|grad> f<around*|(|<with|font-series|bold|p>|)>=<around*|(|<frac|\<partial\>f<around*|(|<with|font-series|bold|p
+    >|)>|\<partial\>x>,<frac|\<partial\>f<around*|(|<with|font-series|bold|p>|)>|\<partial\>y>,<frac|\<partial\>f<around*|(|<with|font-series|bold|p>|)>|\<partial\>z>|)>
   </equation*>
 
-  <section|\<#5411\>\<#91CF\>\<#573A\>\<#7684\>\<#6563\>\<#5EA6\><math|\<longrightarrow\>>\<#6570\>\<#91CF\>\<#573A\>>
+  \<#6CBF\>\<#7740\>\<#8FD9\>\<#4E00\>\<#65B9\>\<#5411\>\<#FF0C\>\<#65B9\>\<#5411\>\<#5BFC\>\<#6570\>\<#6709\>\<#6700\>\<#5927\>\<#7684\>\<#6570\>\<#503C\>\<#3002\>\<#7269\>\<#7406\>\<#4E0A\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EF\>\<#7528\>\<#6709\>\<#68AF\>\<#5EA6\>\<#7B97\>\<#5B50\>
+
+  <\equation*>
+    \<nabla\>=<around*|(|<frac|\<partial\>|\<partial\>x>,<frac|\<partial\>|\<partial\>y>,<frac|\<partial\>|\<partial\>z>|)>,
+  </equation*>
+
+  \<#89C4\>\<#5B9A\>
+
+  <\equation*>
+    \<nabla\>f=grad f<around*|(|<with|font-series|bold|p>|)>=<around*|(|<frac|\<partial\>f|\<partial\>x>,<frac|\<partial\>f|\<partial\>y>,<frac|\<partial\>f|\<partial\>z>|)>.
+  </equation*>
+
+  \<nabla\> \<#6EE1\>\<#8DB3\>\<#4EE5\>\<#4E0B\>\<#89C4\>\<#5219\>\<#FF1A\>
+
+  <\enumerate-roman>
+    <item><math|\<nabla\><around*|(|c f|)>=c \<nabla\>f>
+
+    <item><math|\<nabla\><around*|(|f\<pm\>g|)>=\<nabla\>f\<pm\>\<nabla\>g>
+
+    <item><math|\<nabla\><around*|(|f g|)>=g\<nabla\>f+f\<nabla\>g>
+
+    <item>\<#8BBE\> <math|\<varphi\>> \<#662F\>\<#5355\>\<#53D8\>\<#91CF\>\<#51FD\>\<#6570\>\<#FF0C\>\<#5219\>
+    <math|\<nabla\>\<varphi\>\<circ\>f=\<varphi\><rprime|'>\<circ\>f\<nabla\>f>
+  </enumerate-roman>
+
+  <section|\<#5411\>\<#91CF\>\<#573A\>\<#7684\>\<#6563\>\<#5EA6\><math|<around*|(||\<nobracket\>>>\<#5411\>\<#91CF\>\<#573A\><math|\<rightarrow\>>\<#6570\>\<#91CF\>\<#573A\>)>
 
   \<#8BBE\> <math|D\<subset\><with|font-series|bold|R<rsup|3>>>
   \<#4E3A\>\<#533A\>\<#57DF\>\<#FF0C\>\<#5728\> <with|font-shape|italic|D>
   \<#4E0A\>\<#5B9A\>\<#4E49\>\<#7740\>\<#4E00\>\<#4E2A\>\<#5411\>\<#91CF\>\<#573A\>
   <math|<with|font-series|bold|F>=<around*|(|P,Q,R|)>>.
-  \<#53C8\>\<#8BBE\>\<#66F2\>\<#9762\>
+  \<#53C8\>\<#8BBE\>\<#66F2\>\<#9762\> <math|\<Sigma\>\<subset\>D>, \<#5F53\>
 
   <\equation*>
     <big|int><big|int><rsub|\<Sigma\>>
@@ -172,10 +207,10 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?>>
-    <associate|auto-2|<tuple|2|?>>
-    <associate|auto-3|<tuple|3|?>>
-    <associate|auto-4|<tuple|4|?>>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|2|1>>
+    <associate|auto-3|<tuple|3|1>>
+    <associate|auto-4|<tuple|4|2>>
   </collection>
 </references>
 

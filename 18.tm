@@ -3,7 +3,7 @@
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|<math|>18. \<#66F2\>\<#9762\>\<#79EF\>\<#5206\>
+  <doc-data|<doc-title|<math|>Ÿ18. \<#66F2\>\<#9762\>\<#79EF\>\<#5206\>
   >|<doc-author|<\author-data|<author-name|Yuejian MO>|<\author-affiliation>
     <date|>
   </author-affiliation>>
@@ -22,11 +22,62 @@
 
   <section|\<#66F2\>\<#9762\>\<#7684\>\<#79EF\>\<#5206\>>
 
-  <section|\<#7B2C\>\<#4E00\>\<#578B\>\<#66F2\>\<#9762\>\<#79EF\>\<#5206\>>
+  \<#66F2\>\<#9762\> <math|\<Sigma\> >\<#88AB\> <math|u>
+  \<#66F2\>\<#7EBF\>\<#548C\> <math|v> \<#66F2\>\<#7EBF\>\<#5206\>\<#6210\>\<#5C0F\>\<#5757\>\<#3002\>
+
+  \<#5B9A\>\<#4E49\> 18.1 \<#8BBE\>\<#6B63\>\<#5219\>\<#66F2\>\<#9762\>
+  <math|\<Sigma\>> \<#6709\>\<#53C2\>\<#6570\>\<#5411\>\<#91CF\>\<#65B9\>\<#7A0B\>
+  <math|<with|font-series|bold|r>=<with|font-series|bold|r><around*|(|u,v|)>>,<math|<around*|(|u,v|)>\<in\>\<Delta\>>,
+  \<#6211\>\<#4EEC\>\<#79F0\>
 
   <\equation*>
-    <big|int><rsub|\<Sigma\>>Fd \<sigma\>=<big|int><with|font-series|bold|>
+    \<sigma\><around*|(|\<Sigma\>|)>=<big|int><big|int><rsub|\<Delta\>><around*|\<\|\|\>|<with|font-series|bold|r><rsub|u>\<times\><with|font-series|bold|r><rsub|v>|\<\|\|\>>d
+    u d v=<big|int><big|int><rsub|\<Delta\>><around*|(|<around*|(|<frac|\<partial\><around*|(|y,z|)>|\<partial\><around*|(|u,v|)>>|)><rsup|2>+<around*|(|<frac|\<partial\><around*|(|z,x|)>|\<partial\><around*|(|u,v|)>>|)><rsup|2>+<around*|(|<frac|\<partial\><around*|(|x,y|)>|\<partial\><around*|(|u,v|)>>|)><rsup|2>|)><rsup|1/2>d
+    u d v
   </equation*>
+
+  \<#4E3A\>\<#66F2\>\<#9762\> <math|\<Sigma\>>
+  \<#7684\>\<#9762\>\<#79EF\>\<#FF0C\>\<#5E76\>\<#4E14\>\<#8BB0\>
+
+  <\equation*>
+    d \<sigma\>=<around*|\<\|\|\>|<with|font-series|bold|r><rsub|u>\<times\><with|font-series|bold|r><rsub|v>|\<\|\|\>>d
+    u d v=<around*|\||<tabular|<tformat|<table|<row|<cell|<with|font-series|bold|i>>|<cell|<with|font-series|bold|j>>|<cell|<with|font-series|bold|k>>>|<row|<cell|<frac|\<partial\>x|\<partial\>u>>|<cell|<frac|\<partial\>y|\<partial\>u>>|<cell|<frac|\<partial\>z|\<partial\>u>>>|<row|<cell|<frac|\<partial\>x|\<partial\>v>>|<cell|<frac|\<partial\>y|\<partial\>v>>|<cell|<frac|\<partial\>z|\<partial\>v>>>>>>|\|>
+  </equation*>
+
+  \<#4E3A\>\<#66F2\>\<#9762\>\<#7684\>\<#9762\>\<#79EF\>\<#5143\>\<#7D20\>\<#FF0C\>\<#7B80\>\<#79F0\>\<#9762\>\<#5143\>\<#3002\>
+
+  <section|\<#7B2C\>\<#4E00\>\<#578B\>\<#66F2\>\<#9762\>\<#79EF\>\<#5206\>>
+
+  \<#5982\>\<#679C\> <math|\<Sigma\>> \<#662F\>\<#6B63\>\<#5219\>\<#66F2\>\<#9762\>\<#FF0C\>\<#5B83\>\<#7684\>\<#53C2\>\<#6570\>\<#65B9\>\<#7A0B\>\<#4E3A\>
+  <math|r=r<around*|(|u,v|)>>, <math|<around*|(|u,v|)>\<in\>\<Delta\>>;
+  \<#51FD\>\<#6570\> <math|f> \<#5728\> <math|\<Sigma\>>
+  \<#4E0A\>\<#8FDE\>\<#7EED\>\<#FF0C\>\<#90A3\>\<#4E48\>\ 
+
+  <\equation*>
+    <big|int><rsub|\<Sigma\>>f d \<sigma\>=<big|int><with|font-series|bold|<big|int><rsub|\<Delta\>>>f\<circ\><with|font-series|bold|r><around*|\<\|\|\>|<with|font-series|bold|r<rsub|u>\<times\>r<rsub|v>>|\<\|\|\>>d
+    u d v
+  </equation*>
+
+  \<#6C42\>\<#89E3\>\<#7B2C\>\<#4E00\>\<#578B\>\<#66F2\>\<#9762\>\<#79EF\>\<#5206\>
+
+  <\enumerate-numeric>
+    <item>\<#4E3A\>\<#66F2\>\<#9762\> <math|\<Sigma\>>
+    \<#6C42\>\<#5F97\>\<#4E00\>\<#4E2A\>\<#7B26\>\<#5408\>\<#8981\>\<#6C42\>\<#7684\>\<#53C2\>\<#6570\>\<#8868\>\<#793A\>
+    <math|<with|font-series|bold|r>> \<#6216\>\<#8005\>\<#663E\>\<#8868\>\<#793A\>
+    <math|\<varphi\>>, \<#5B9A\>\<#51FA\>\<#5B83\>\<#4EEC\>\<#7684\>\<#5B9A\>\<#4E49\>\<#57DF\>
+    <math|\<Delta\>> \<#6216\> D;
+
+    <item>\<#8BA1\>\<#7B97\>\<#9762\>\<#5143\> <math|d
+    \<sigma\>=<around*|\<\|\|\>|<with|font-series|bold|r><rsub|u>\<times\><with|font-series|bold|r><rsub|v>|\<\|\|\>>d
+    u d v> \<#6216\>\<#8005\>
+
+    <\equation*>
+      d \<sigma\>=<sqrt|1+<around*|(|<frac|\<partial\>\<varphi\>|\<partial\>x>|)><rsup|2>+<around*|(|<frac|\<partial\>\<varphi\>|\<partial\>y>|)><rsup|2>>d
+      x d y;
+    </equation*>
+
+    <item>\<#8BA1\>\<#7B97\>\<#4E8C\>\<#91CD\>\<#79EF\>\<#5206\>
+  </enumerate-numeric>
 
   <\section>
     \<#7B2C\>\<#4E8C\>\<#578B\>\<#66F2\>\<#9762\>\<#79EF\>\<#5206\>
