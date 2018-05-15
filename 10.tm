@@ -3,7 +3,11 @@
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|Ÿ10 \<#51FD\>\<#6570\>\<#5217\>\<#4E0E\>\<#51FD\>\<#6570\>\<#9879\>\<#7EA7\>\<#6570\>>|<doc-date|<date>>|<doc-author|<\author-data|<author-name|\<#6C5F\>\<#5FC3\>\<#5E90\>>>
+  <doc-data|<doc-title|Ÿ10 \<#51FD\>\<#6570\>\<#5217\>\<#4E0E\>\<#51FD\>\<#6570\>\<#9879\>\<#7EA7\>\<#6570\>>|<\doc-date>
+    <date>
+
+    \<#6211\>\<#60F3\>\<#77E5\>\<#9053\>\<#65E0\>\<#7A77\>\<#662F\>\<#591A\>\<#5C11\>,\<#6211\>\<#60F3\>\<#627E\>\<#5230\>\<#8FD9\>\<#79CD\>\<#611F\>\<#89C9\>
+  </doc-date>|<doc-author|<\author-data|<author-name|\<#6C5F\>\<#5FC3\>\<#5E90\>>>
     \;
   </author-data>>>
 
@@ -28,7 +32,7 @@
 
   \<#8BBE\> <math|<around*|[|a,b|]>> \<#662F\> <math|<around*|(|1|)>>
   \<#7684\>\<#6536\>\<#655B\>\<#70B9\>\<#96C6\>\<#FF0E\>\<#5BF9\>\<#4E8E\>
-  <math|<around*|[|a,b|]>> \<#4E2D\>\<#7684\>\<#6CA1\>\<#4E00\>\<#70B9\>
+  <math|<around*|[|a,b|]>> \<#4E2D\>\<#7684\>\<#6BCF\>\<#4E00\>\<#70B9\>
   <math|x>, \<#7EA7\>\<#6570\> <math|<big|sum><rsub|n=1><rsup|\<infty\>>u<rsub|n><around*|(|x|)>>
   \<#90FD\>\<#6709\>\<#4E00\>\<#4E2A\>\<#786E\>\<#5B9A\>\<#7684\>\<#548C\>\<#FF0C\>\<#8BB0\>\<#4E3A\>
   <math|S<around*|(|x|)>>, \<#90A3\>\<#4E48\>
@@ -39,7 +43,7 @@
 
   \<#662F\>\<#786E\>\<#5B9A\>\<#5728\> <math|<around*|[|a,b|]>>
   \<#4E0A\>\<#7684\>\<#4E00\>\<#4E2A\>\<#51FD\>\<#6570\>, \<#79F0\>\<#4E3A\>
-  (1) \<#7684\>\<#548C\>\<#51FD\>\<#6570\>.
+  (1) \<#7684\>\<#548C\>\<#51FD\>\<#6570\>\<#FF0E\>
 
   \;
 
@@ -81,7 +85,7 @@
   \<#5982\>\<#679C\>\<#8BB0\> <math|\<beta\>=sup<rsub|x\<in\>I><around*|\||f<rsub|n><around*|(|x|)>-f<around*|(|x|)>|\|>>,
   \<#90A3\>\<#4E48\>\<#4ECE\>\<#51E0\>\<#4F55\>\<#4E0A\>\<#53EF\>\<#89C2\>\<#5BDF\>\<#5230\>
 
-  <with|font-series|bold|\<#5B9A\>\<#7406\> 10.1>
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 10.2>
   <math|<around*|{|f<rsub|n>|}>>\<#5728\><with|font-shape|italic| I
   >\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#4E8E\> <with|font-shape|italic|f>
   <math|\<Leftrightarrow\>> <math|lim<rsub|n\<rightarrow\>\<infty\>>\<beta\><rsub|n>=0>
@@ -128,8 +132,8 @@
   \<#5728\> <math|I> \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#7684\>\<#4E00\>\<#4E2A\>\<#5FC5\>\<#8981\>\<#6761\>\<#4EF6\>\<#662F\>\<#5B83\>\<#7684\>\<#901A\>\<#9879\>\<#5728\>
   <math|I> \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#4E8E\> <math|0>.
 
-  \<#5B9A\>\<#7406\> 10.4(Weierstrass \<#5224\>\<#522B\>\<#6CD5\>)
-  \<#5982\>\<#679C\>\<#5B58\>\<#5728\>\<#6536\>\<#655B\>\<#7684\>\<#6B63\>\<#9879\>\<#7EA7\>\<#6570\>
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 10.4(Weierstrass
+  \<#5224\>\<#522B\>\<#6CD5\>)> \<#5982\>\<#679C\>\<#5B58\>\<#5728\>\<#6536\>\<#655B\>\<#7684\>\<#6B63\>\<#9879\>\<#7EA7\>\<#6570\>
   <math|<big|sum><rsub|n=1><rsup|\<infty\>>a<rsub|n>>,\<#4F7F\>\<#5F97\>\<#5728\>\<#533A\>\<#95F4\>
   <math|I> \<#4E0A\>\<#6709\>\<#4E0D\>\<#7B49\>\<#5F0F\>
 
@@ -140,15 +144,141 @@
   \<#90A3\>\<#4E48\>\<#7EA7\>\<#6570\> <math|<big|sum><rsub|n=1><rsup|\<infty\>>u<rsub|n><around*|(|x|)>>
   \<#5728\> <math|I> \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0E\>
 
-  \ 
+  \<#5B9A\>\<#7406\> 10.5 (Dirichlet \<#5224\>\<#522B\>\<#6CD5\>) \<#82E5\>
+  <math|<big|sum>>
+
+  \<#5B9A\>\<#7406\> 10.6 (Abel \<#5224\>\<#522B\>\<#6CD5\>)
+
+  \<#671F\>\<#672B\>\<#8003\>\<#8BD5\>\<#FF1A\> Cauchy
+  \<#6536\>\<#655B\>\<#539F\>\<#539F\>\<#7406\>\<#FF0C\> \<#4F8B\> 12,
+  \<#5982\>\<#679C\>\<#51FD\>\<#6570\>\<#5217\>\<#5728\>\<#4E0D\>\<#540C\>\<#7684\>\<#533A\>\<#95F4\>\<#5185\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0C\>\<#90A3\>\<#4E5F\>\<#5728\>\<#8FDE\>\<#8D77\>\<#6765\>\<#7684\>\<#533A\>\<#95F4\>\<#91CC\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0E\>\ 
 
   <section|\<#6781\>\<#9650\>\<#51FD\>\<#6570\>\<#4E0E\>\<#548C\>\<#51FD\>\<#6570\>\<#7684\>\<#6027\>\<#8D28\>>
 
   <section|\<#7531\>\<#5E42\>\<#7EA7\>\<#6570\>\<#786E\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\>>
 
+  \<#5355\>\<#53D8\>\<#91CF\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5F62\>\<#5F0F\>\<#4E3A\>
+
+  <\equation*>
+    f<around*|(|x|)>=<big|sum><rsub|n01><rsup|\<infty\>>a<rsub|n><around*|(|x-c|)><rsup|n>
+  </equation*>
+
+  These power series arise primarily in analysis, but also accur in
+  combinatorics (as generating functions, a kind of formal power series) and
+  in electrical enginerring (under the name of
+  <with|font-shape|italic|Z-transform>). The familiar decimal notation for
+  real numbers can also be viewed as an example of a power series, with
+  integer coefficients, but with the argument <with|font-shape|italic|x>
+  fixed at <math|1/10>.
+
+  A power series will converge for some values of the variable
+  <with|font-shape|italic|x> and may diverge for others. All power series
+  <math|f<around*|(|x|)>> in powers of <math|<around*|(|x-c|)>>. will
+  converge at <math|x=c>. If <with|font-shape|italic|c> is not the only
+  convergent point, then there is always a number <with|font-shape|italic|r>
+  with <math|0\<less\>r\<leqslant\>\<infty\>> such that the series converges
+  whenever <math|<around*|\||x-c|\|>\<gtr\>r>. The number <math|r> is called
+  the redius of convergence of the power series; in general it is given as\ 
+
+  <\equation*>
+    r=lim<rsub|n\<rightarrow\>\<infty\>>inf<around*|\||a<rsub|n>|\|><rsup|-<frac|1|n>>
+  </equation*>
+
+  A fast way to compute it is, if this limit exists.
+
+  <\equation*>
+    r<rsup|-1>=lim<rsub|n\<rightarrow\>\<infty\>><around*|\||<frac|a<rsub|n+1>|a<rsub|n>>|\|>
+  </equation*>
+
+  Ablel \<#5F15\>\<#7406\>\<#FF1A\> \<#7ED9\>\<#5B9A\>\<#4E00\>\<#4E2A\>\<#5E42\>\<#7EA7\>\<#6570\>
+  <math|<big|sum><rsub|n=0><rsup|\<infty\>>a<rsub|n>x<rsup|n>>,
+  \<#5982\>\<#679C\>\<#5BF9\>\<#5B9E\>\<#6570\> <math|r<rsub|0>\<gtr\>0>,
+  \<#6570\>\<#5217\> <math|<around*|(|<around*|\||a<rsub|n>|\|>r<rsub|0><rsup|n>|)><rsub|n\<geqslant\>0>>
+  \<#6709\>\<#754C\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5BF9\>\<#4EFB\>\<#610F\>\<#590D\>\<#6570\>
+  <math|<around*|\||x\<less\>r<rsub|0>|\|>>,
+  <math|<big|sum><rsub|n=0><rsup|\<infty\>>a<rsub|n>x<rsup|n>>
+  \<#7EDD\>\<#5BF9\>\<#6536\>\<#655B\>\<#FF0E\>
+
+  \<#53EF\>\<#4EE5\>\<#8BC1\>\<#660E\>\<#FF0C\>\<#5E42\>\<#7EA7\>\<#6570\>\<#51FD\>\<#6570\>
+  <math|f> \<#5728\>\<#6536\>\<#655B\>\<#533A\>\<#95F4\>\<#4E0A\>\<#65E0\>\<#7A77\>\<#6B21\>\<#53EF\>\<#5BFC\>\<#FF0C\>\<#5E76\>\<#4E14\>\<#53EF\>\<#79EF\>\<#FF0C\>\<#6536\>\<#655B\>\<#534A\>\<#5F84\>\<#4E0D\>\<#53D8\>\<#FF0C\>\<#4F46\>\<#7AEF\>\<#70B9\>\<#53EF\>\<#80FD\>\<#53D8\>\<#FF0E\>
+
+  \<#5B9A\>\<#7406\> 10.15 \<#8BBE\> <math|<big|sum><rsub|0><rsup|\<infty\>>k>
+
+  \<#4EE5\>\<#4E0B\>\<#662F\>\<#4E00\>\<#4E0B\>\<#5E38\>\<#89C1\>\<#51FD\>\<#6570\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5C55\>\<#5F00\>\<#FF0E\>
+
+  <\enumerate-numeric>
+    <item>Genometric series formula,<space|1em>which is valid for
+    <math|<around*|\||x|\|>>\<less\> 1.
+
+    <\equation*>
+      <frac|1|1-x>=<big|sum><rsub|n=0><rsup|\<infty\>>x<rsup|n>
+    </equation*>
+
+    <item>Exponential function formula
+
+    <\equation*>
+      e<rsup|x>=<big|sum><rsub|n=0><rsup|\<infty\>><frac|x<rsup|n>|n!>
+    </equation*>
+
+    <item>The sine formula
+
+    <\equation*>
+      sin<around*|(|x|)>=<big|sum><rsub|n=0><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n>x<rsup|2n+1>|<around*|(|2n+1|)>!>
+    </equation*>
+  </enumerate-numeric>
+
+  These power series are also examples of Taylor series. Negative powers are
+  not perimitted in a power series. The coefficients <math|a<rsub|n>> are not
+  allowed to depend on <math|x>.
+
+  <subsection|\<#FF2F\>perations on power series>
+
+  When two functions <math|f> and <math|g> are decomposed into power series
+  around the same center <math|c>, the power series of the
+  <with|font-series|bold|sum or difference> of the functions can be obtained
+  by termwise addition and subtration. It is not true that if two power
+  series has not same radius of convergence.
+
+  The power series of the\ 
+
+  \<#5B9A\>\<#7406\> 10.16 (Abel \<#7B2C\>\<#4E8C\>\<#5B9A\>\<#7406\>)
+  \<#8BBE\>\<#5E42\>\<#7EA7\>\<#6570\><math|<big|sum><rsub|n=0><rsup|\<infty\>>>,
+  \<#5E42\>\<#7EA7\>\<#6570\>\<#662F\>\<#5728\>\<#6536\>\<#655B\>\<#57DF\>\<#5185\>\<#8FDE\>\<#7EED\>\<#FF0E\>
+
+  \<#6709\>\<#65F6\>\<#6570\>\<#9879\>\<#7EA7\>\<#6570\>\<#7684\>\<#548C\>\<#53EF\>\<#4EE5\>\<#8F6C\>\<#5316\>\<#4E3A\>\<#5E42\>\<#7EA7\>\<#6570\>\<#6C42\>\<#548C\>\<#FF0E\>
+
+  \<#5B9A\>\<#7406\> 10.18 \<#8BBE\>\<#5E42\>\<#7EA7\>\<#6570\>
+  <math|<big|sum><rsub|n=1><rsup|\<infty\>>a<rsub|n>x<rsup|n>> \<#548C\>
+  <math|<big|sum><rsub|n=0><rsup|\<infty\>>b<rsub|n>x<rsup|n>>
+  \<#7684\>\<#6536\>\<#655B\>\<#534A\>\<#5F84\>\<#90FD\>\<#662F\> <math|R>,
+  \<#5219\>\<#5F53\> <math|x\<in\><around*|(|-R,R|)>> \<#65F6\>\<#6709\>
+
+  <\equation*>
+    <big|sum><rsub|n=0><rsup|\<infty\>>a<rsub|n>x<rsup|n><big|sum><rsub|n=0><rsup|\<infty\>>b<rsub|n>x<rsup|n>=<big|sum><rsub|n=0><rsup|\<infty\>>c<rsub|n>x<rsup|n>
+  </equation*>
+
+  \<#5B58\>\<#5728\>\<#540C\>\<#6837\>\<#7684\>\<#6536\>\<#655B\>\<#534A\>\<#5F84\>\<#FF0E\>
+
   <section|\<#51FD\>\<#6570\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5C55\>\<#5F00\>\<#5F0F\>>
 
+  \<#5982\>\<#679C\> <math|f<around*|(|x|)>>
+  \<#80FD\>\<#5C55\>\<#5F00\>\<#6210\>\<#5E42\>\<#7EA7\>\<#6570\>\<#FF0C\>\<#6CF0\>\<#52D2\>\<#7EA7\>\<#6570\>(\<#552F\>\<#4E00\>\<#7684\>)
+
+  <\equation*>
+    f<around*|(|x|)>=<big|sum><rsub|n=0><rsup|\<infty\>><frac|f<rsup|<around*|(|n|)>><around*|(|x<rsub|0>|)>|n!><around*|(|x-x<rsub|0>|)><rsup|n>,x\<in\><around*|(|x<rsub|0>-R,x<rsub|0>+R|)>
+  </equation*>
+
+  \<#5982\>\<#679C\> <math|f<around*|(|x|)>>
+  \<#6709\>\<#4EFB\>\<#610F\>\<#9636\>\<#5BFC\>\<#6570\>\<#FF0C\>\<#5373\>
+  <math|f\<in\>C<rsup|\<infty\>>>
+
   <section|\<#5E42\>\<#7EA7\>\<#6570\>\<#5728\>\<#7EC4\>\<#5408\>\<#6570\>\<#5B66\>\<#4E2D\>\<#7684\>\<#5E94\>\<#7528\>>
+
+  <section|\<#53C2\>\<#8003\>>
+
+  <\enumerate-alpha>
+    <item>https://en.wikipedia.org/wiki/Power_series
+  </enumerate-alpha>
 
   \;
 </body>
@@ -161,12 +291,14 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1|../.TeXmacs/texts/scratch/no_name_4.tm>>
-    <associate|auto-2|<tuple|2|1|../.TeXmacs/texts/scratch/no_name_4.tm>>
-    <associate|auto-3|<tuple|3|1|../.TeXmacs/texts/scratch/no_name_4.tm>>
-    <associate|auto-4|<tuple|4|1|../.TeXmacs/texts/scratch/no_name_4.tm>>
-    <associate|auto-5|<tuple|5|1|../.TeXmacs/texts/scratch/no_name_4.tm>>
-    <associate|auto-6|<tuple|6|1|../.TeXmacs/texts/scratch/no_name_4.tm>>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|2|1>>
+    <associate|auto-3|<tuple|3|2>>
+    <associate|auto-4|<tuple|4|2>>
+    <associate|auto-5|<tuple|4.1|2>>
+    <associate|auto-6|<tuple|5|2>>
+    <associate|auto-7|<tuple|6|2>>
+    <associate|auto-8|<tuple|7|?>>
   </collection>
 </references>
 
@@ -185,7 +317,7 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>\<#7531\>\<#5E42\>\<#7EA7\>\<#6570\>\<#786E\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>\<#7531\>\<#5E42\>\<#7EA7\>\<#6570\>\<#786E\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\>-<no-break>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4><vspace|0.5fn>
 
@@ -196,6 +328,10 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|6<space|2spc>\<#5E42\>\<#7EA7\>\<#6570\>\<#5728\>\<#7EC4\>\<#5408\>\<#6570\>\<#5B66\>\<#4E2D\>\<#7684\>\<#5E94\>\<#7528\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|7<space|2spc>\<#53C2\>\<#8003\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-7><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
