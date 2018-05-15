@@ -134,8 +134,9 @@
 
   <with|font-series|bold|\<#5B9A\>\<#7406\> 10.4(Weierstrass
   \<#5224\>\<#522B\>\<#6CD5\>)> \<#5982\>\<#679C\>\<#5B58\>\<#5728\>\<#6536\>\<#655B\>\<#7684\>\<#6B63\>\<#9879\>\<#7EA7\>\<#6570\>
-  <math|<big|sum><rsub|n=1><rsup|\<infty\>>a<rsub|n>>,\<#4F7F\>\<#5F97\>\<#5728\>\<#533A\>\<#95F4\>
-  <math|I> \<#4E0A\>\<#6709\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+  <math|<big|sum><rsub|n=1><rsup|\<infty\>>a<rsub|n>>,
+  \<#4F7F\>\<#5F97\>\<#5728\>\<#533A\>\<#95F4\> <math|I>
+  \<#4E0A\>\<#6709\>\<#4E0D\>\<#7B49\>\<#5F0F\>
 
   <\equation*>
     <around*|\||u<rsub|n><around*|(|x|)>|\|>\<leqslant\>a<rsub|n>,n=1,2,\<cdots\>,
@@ -144,10 +145,16 @@
   \<#90A3\>\<#4E48\>\<#7EA7\>\<#6570\> <math|<big|sum><rsub|n=1><rsup|\<infty\>>u<rsub|n><around*|(|x|)>>
   \<#5728\> <math|I> \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0E\>
 
+  \;
+
   \<#5B9A\>\<#7406\> 10.5 (Dirichlet \<#5224\>\<#522B\>\<#6CD5\>) \<#82E5\>
   <math|<big|sum>>
 
+  \;
+
   \<#5B9A\>\<#7406\> 10.6 (Abel \<#5224\>\<#522B\>\<#6CD5\>)
+
+  \;
 
   \<#671F\>\<#672B\>\<#8003\>\<#8BD5\>\<#FF1A\> Cauchy
   \<#6536\>\<#655B\>\<#539F\>\<#539F\>\<#7406\>\<#FF0C\> \<#4F8B\> 12,
@@ -199,8 +206,7 @@
   <math|<big|sum><rsub|n=0><rsup|\<infty\>>a<rsub|n>x<rsup|n>>
   \<#7EDD\>\<#5BF9\>\<#6536\>\<#655B\>\<#FF0E\>
 
-  \<#53EF\>\<#4EE5\>\<#8BC1\>\<#660E\>\<#FF0C\>\<#5E42\>\<#7EA7\>\<#6570\>\<#51FD\>\<#6570\>
-  <math|f> \<#5728\>\<#6536\>\<#655B\>\<#533A\>\<#95F4\>\<#4E0A\>\<#65E0\>\<#7A77\>\<#6B21\>\<#53EF\>\<#5BFC\>\<#FF0C\>\<#5E76\>\<#4E14\>\<#53EF\>\<#79EF\>\<#FF0C\>\<#6536\>\<#655B\>\<#534A\>\<#5F84\>\<#4E0D\>\<#53D8\>\<#FF0C\>\<#4F46\>\<#7AEF\>\<#70B9\>\<#53EF\>\<#80FD\>\<#53D8\>\<#FF0E\>
+  \;
 
   \<#5B9A\>\<#7406\> 10.15 \<#8BBE\> <math|<big|sum><rsub|0><rsup|\<infty\>>k>
 
@@ -239,11 +245,27 @@
   by termwise addition and subtration. It is not true that if two power
   series has not same radius of convergence.
 
-  The power series of the\ 
+  The power series of the product and quotient of the functions can be
+  obtaned as follows:
+
+  <\equation*>
+    f<around*|(|x|)>g<around*|(|x|)>=<around*|(|<big|sum><rsub|n=0><rsup|\<infty\>>a<rsub|n><around*|(|x-c|)><rsup|n>|)><around*|(|<big|sum><rsub|n=0><rsup|\<infty\>>b<rsub|n><around*|(|x-c|)><rsup|n>|)>=<big|sum><rsub|i=0><rsup|\<infty\>><big|sum><rsub|j=0><rsup|\<infty\>>a<rsub|i>
+    b<rsub|j><around*|(|x-c|)><rsup|n>=<big|sum><rsub|n=0><rsup|\<infty\>>a<rsub|i>
+    b<rsub|n-i><around*|(|x-c|)><rsup|n>
+  </equation*>
+
+  The sequence <math|m<rsub|n>=<big|sum><rsub|i=0><rsup|\<infty\>>a<rsub|i>
+  b<rsub|n-i>> is known as the convolution of sequences <math|a<rsub|n>> and
+  <math|b<rsub|n>>.
+
+  \<#53EF\>\<#4EE5\>\<#8BC1\>\<#660E\>\<#FF0C\>\<#5E42\>\<#7EA7\>\<#6570\>\<#51FD\>\<#6570\>
+  <math|f> \<#5728\>\<#6536\>\<#655B\>\<#533A\>\<#95F4\>\<#4E0A\>\<#65E0\>\<#7A77\>\<#6B21\>\<#53EF\>\<#5BFC\>\<#FF0C\>\<#5E76\>\<#4E14\>\<#53EF\>\<#79EF\>.\<#6536\>\<#655B\>\<#534A\>\<#5F84\>\<#4E0D\>\<#53D8\>\<#FF0C\>\<#4F46\>\<#7AEF\>\<#70B9\>\<#53EF\>\<#80FD\>\<#53D8\>\<#FF0E\>
 
   \<#5B9A\>\<#7406\> 10.16 (Abel \<#7B2C\>\<#4E8C\>\<#5B9A\>\<#7406\>)
   \<#8BBE\>\<#5E42\>\<#7EA7\>\<#6570\><math|<big|sum><rsub|n=0><rsup|\<infty\>>>,
   \<#5E42\>\<#7EA7\>\<#6570\>\<#662F\>\<#5728\>\<#6536\>\<#655B\>\<#57DF\>\<#5185\>\<#8FDE\>\<#7EED\>\<#FF0E\>
+
+  \;
 
   \<#6709\>\<#65F6\>\<#6570\>\<#9879\>\<#7EA7\>\<#6570\>\<#7684\>\<#548C\>\<#53EF\>\<#4EE5\>\<#8F6C\>\<#5316\>\<#4E3A\>\<#5E42\>\<#7EA7\>\<#6570\>\<#6C42\>\<#548C\>\<#FF0E\>
 
@@ -278,9 +300,9 @@
 
   <\enumerate-alpha>
     <item>https://en.wikipedia.org/wiki/Power_series
-  </enumerate-alpha>
 
-  \;
+    <item>https://blog.csdn.net/sunbobosun56801/article/details/78853877
+  </enumerate-alpha>
 </body>
 
 <\initial>
@@ -295,10 +317,10 @@
     <associate|auto-2|<tuple|2|1>>
     <associate|auto-3|<tuple|3|2>>
     <associate|auto-4|<tuple|4|2>>
-    <associate|auto-5|<tuple|4.1|2>>
-    <associate|auto-6|<tuple|5|2>>
-    <associate|auto-7|<tuple|6|2>>
-    <associate|auto-8|<tuple|7|?>>
+    <associate|auto-5|<tuple|4.1|3>>
+    <associate|auto-6|<tuple|5|3>>
+    <associate|auto-7|<tuple|6|3>>
+    <associate|auto-8|<tuple|7|3>>
   </collection>
 </references>
 
@@ -317,21 +339,25 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>\<#7531\>\<#5E42\>\<#7EA7\>\<#6570\>\<#786E\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\>-<no-break>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>\<#7531\>\<#5E42\>\<#7EA7\>\<#6570\>\<#786E\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5<space|2spc>\<#51FD\>\<#6570\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5C55\>\<#5F00\>\<#5F0F\>>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-5><vspace|0.5fn>
+      <with|par-left|<quote|1tab>|4.1<space|2spc>\<#FF2F\>perations on power
+      series <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5>>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|6<space|2spc>\<#5E42\>\<#7EA7\>\<#6570\>\<#5728\>\<#7EC4\>\<#5408\>\<#6570\>\<#5B66\>\<#4E2D\>\<#7684\>\<#5E94\>\<#7528\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5<space|2spc>\<#51FD\>\<#6570\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5C55\>\<#5F00\>\<#5F0F\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|7<space|2spc>\<#53C2\>\<#8003\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|6<space|2spc>\<#5E42\>\<#7EA7\>\<#6570\>\<#5728\>\<#7EC4\>\<#5408\>\<#6570\>\<#5B66\>\<#4E2D\>\<#7684\>\<#5E94\>\<#7528\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-7><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|7<space|2spc>\<#53C2\>\<#8003\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-8><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
