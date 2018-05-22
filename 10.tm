@@ -64,6 +64,8 @@
   \<#79F0\><math|<around*|{|f<rsub|n>|}>> \<#5728\> <math|I>
   \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#4E8E\> <math|f>.
 
+  \;
+
   (\<#5171\>\<#540C\>\<#7684\>)
 
   \<#4ECE\>\<#51E0\>\<#4F55\>\<#4E0A\>\<#770B\>\<#FF0C\>
@@ -177,17 +179,21 @@
   <math|<around*|{|f<rsub|n>|}>> \<#5728\> <math|I>
   \<#4E0A\><with|font-series|bold|\<#4E00\>\<#81F4\>\<#6709\>\<#754C\>>\<#FF0E\>
 
-  \<#5B9A\>\<#7406\> 10.5 (Dirichlet \<#5224\>\<#522B\>\<#6CD5\>) \<#82E5\>
-  <math|<big|sum>> \<#5F53\> <math|x<rsub|0>=0>
-  \<#65F6\>\<#FF0C\>\<#7EA7\>\<#6570\>
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 10.5 (Dirichlet
+  \<#5224\>\<#522B\>\<#6CD5\>)> \<#82E5\> <math|<big|sum>> \<#5F53\>
+  <math|x<rsub|0>=0> \<#65F6\>\<#FF0C\>\<#7EA7\>\<#6570\>
+  <math|<big|sum><rsub|n=0><rsup|\<infty\>>a<rsub|n><around*|(|x|)>b<rsub|n><around*|(|x|)>>
+  \<#6EE1\>\<#8DB3\>\<#4E0B\>\<#9762\>\<#4E24\>\<#4E2A\>\<#6761\>\<#4EF6\>\<#FF1A\>
 
-  <\equation*>
-    <big|sum><rsub|n=0><rsup|\<infty\>><frac|f<rsup|<around*|(|n|)>><around*|(|0|)>|n!>x<rsup|n>
-  </equation*>
+  <\enumerate-numeric>
+    <item>
 
-  \;
+    <item>
+  </enumerate-numeric>
 
-  \<#5B9A\>\<#7406\> 10.6 (Abel \<#5224\>\<#522B\>\<#6CD5\>)
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 10.6 (Abel
+  \<#5224\>\<#522B\>\<#6CD5\>)> \<#5982\>\<#679C\>\<#7EA7\>\<#6570\>
+  <math|<big|sum><rsub|n=1><rsup|n>a<rsub|n>>
 
   \;
 
@@ -197,13 +203,29 @@
 
   <section|\<#6781\>\<#9650\>\<#51FD\>\<#6570\>\<#4E0E\>\<#548C\>\<#51FD\>\<#6570\>\<#7684\>\<#6027\>\<#8D28\>>
 
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 10.7>
+  \<#5982\>\<#679C\>\<#51FD\>\<#6570\>\<#5217\>
+  <math|<around*|{|f<rsub|n>|}>> \<#7684\>\<#6BCF\>\<#4E00\>\<#9879\>\<#90FD\>\<#5728\>\<#533A\>\<#95F4\>
+  <math|I> \<#4E0A\>\<#8FDE\>\<#7EED\>\<#FF0C\>\<#4E14\>
+  <math|<around*|{|f<rsub|n>|}>> \<#5728\> <math|I>
+  \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#4E8E\>
+  <math|f>,\<#90A3\>\<#4E48\> <math|f> \<#4E5F\>\<#5728\> <math|I>
+  \<#4E0A\>\<#8FDE\>\<#7EED\>\<#FF0E\>
+
+  \<#5BF9\>\<#5E94\>\<#4E8E\>\<#65E0\>\<#7A77\>\<#7EA7\>\<#6570\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#6709\>
+
+  \<#5B9A\>\<#7406\> 10.7' \<#5982\>\<#679C\>\<#7EA7\>\<#6570\>
+  <math|<big|sum><rsub|n=1><rsup|\<infty\>>u<rsub|n><around*|(|x|)>>
+  \<#5728\>\<#533A\>\<#95F4\> <math|I> \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#4E0E\>
+  <math|S<around*|(|x|)>>,\ 
+
   <section|\<#7531\>\<#5E42\>\<#7EA7\>\<#6570\>\<#786E\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\>>
 
   \<#5355\>\<#53D8\>\<#91CF\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5F62\>\<#5F0F\>\<#4E3A\>
 
-  <\equation*>
+  <\equation>
     f<around*|(|x|)>=<big|sum><rsub|n01><rsup|\<infty\>>a<rsub|n><around*|(|x-c|)><rsup|n>
-  </equation*>
+  </equation>
 
   These power series arise primarily in analysis, but also accur in
   combinatorics (as generating functions, a kind of formal power series) and
@@ -222,15 +244,23 @@
   whenever <math|<around*|\||x-c|\|>\<gtr\>r>. The number <math|r> is called
   the redius of convergence of the power series; in general it is given as\ 
 
-  <\equation*>
-    r=lim<rsub|n\<rightarrow\>\<infty\>>inf<around*|\||a<rsub|n>|\|><rsup|-<frac|1|n>>
-  </equation*>
+  <\equation>
+    r=<frac|1|lim<rsub|n\<rightarrow\>\<infty\>>sup
+    <rsup|n><above|<sqrt|<around*|\||a<rsub|n>|\|>>|>>
+  </equation>
 
   A fast way to compute it is, if this limit exists.
 
   <\equation*>
     r<rsup|-1>=lim<rsub|n\<rightarrow\>\<infty\>><around*|\||<frac|a<rsub|n+1>|a<rsub|n>>|\|>
   </equation*>
+
+  \<#5B9A\>\<#7406\> 10.12 \<#5BF9\>\<#4E8E\>\<#7ED9\>\<#5B9A\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>
+  (2),\ 
+
+  <\enumerate-numeric>
+    <item>\<#5F53\> <math|R=0> \<#65F6\>\<#FF0C\>(2) \<#7EB8\>\<#5E26\>
+  </enumerate-numeric>
 
   Ablel \<#5F15\>\<#7406\>\<#FF1A\> \<#7ED9\>\<#5B9A\>\<#4E00\>\<#4E2A\>\<#5E42\>\<#7EA7\>\<#6570\>
   <math|<big|sum><rsub|n=0><rsup|\<infty\>>a<rsub|n>x<rsup|n>>,
@@ -302,19 +332,12 @@
   b<rsub|n-i>> is known as the convolution of sequences <math|a<rsub|n>> and
   <math|b<rsub|n>>.
 
-  \<#53EF\>\<#4EE5\>\<#8BC1\>\<#660E\>\<#FF0C\>\<#5BF9\>\<#4E8E\>\<#5E42\>\<#7EA7\>\<#6570\>\<#51FD\>\<#6570\>
-  <math|f> \<#7684\>\<#548C\>\<#51FD\>\<#6570\> <math|S<around*|(|x|)>>
-  \<#5728\>\<#6536\>\<#655B\>\<#533A\>\<#95F4\>\<#5185\>\<#8FDE\>\<#7EED\>\<#4E14\>\<#6709\>\<#4EFB\>\<#610F\>\<#9636\>\<#5BFC\>\<#6570\>\<#3002\>\<#540C\>\<#65F6\>\<#FF0C\>\<#5BF9\>\<#5E42\>\<#7EA7\>\<#6570\>\<#505A\>\<#79EF\>\<#5206\>\<#540E\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>\<#7684\>\<#6536\>\<#655B\>\<#534A\>\<#5F84\>\<#4E0D\>\<#53D8\>\<#3002\>
+  \<#53EF\>\<#4EE5\>\<#8BC1\>\<#660E\>\<#FF0C\>\<#5E42\>\<#7EA7\>\<#6570\>\<#51FD\>\<#6570\>
+  <math|f> \<#5728\>\<#6536\>\<#655B\>\<#533A\>\<#95F4\>\<#4E0A\>\<#65E0\>\<#7A77\>\<#6B21\>\<#53EF\>\<#5BFC\>\<#FF0C\>\<#5E76\>\<#4E14\>\<#53EF\>\<#79EF\>.\<#6536\>\<#655B\>\<#534A\>\<#5F84\>\<#4E0D\>\<#53D8\>\<#FF0C\>\<#4F46\>\<#7AEF\>\<#70B9\>\<#53EF\>\<#80FD\>\<#53D8\>\<#FF0E\>
 
-  \<#5728\>\<#6536\>\<#655B\>\<#533A\>\<#95F4\>\<#7684\>\<#4E24\>\<#7AEF\>\<#70B9\>\<#FF0C\>\<#548C\>\<#51FD\>\<#6570\>\<#6709\>\<#5982\>\<#4E0B\>\<#6027\>\<#8D28\>.
-
-  <with|font-series|bold|\<#5B9A\>\<#7406\> 10.16 (Abel
-  \<#7B2C\>\<#4E8C\>\<#5B9A\>\<#7406\>)> \<#8BBE\>\<#5E42\>\<#7EA7\>\<#6570\>\<#7684\>\<#6536\>\<#655B\>\<#534A\>\<#5F84\>\<#4E3A\>
-  <math|R> ,\<#5982\>\<#679C\>\<#5728\> <math|x=R>
-  \<#5904\>\<#FF0C\>\<#5E42\>\<#7EA7\>\<#6570\>\<#6536\>\<#655B\>\<#FF0C\>\<#5219\>\<#5176\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5728\>
-  <math|x=R> \<#5904\>\<#5DE6\>\<#8FDE\>\<#7EED\>\<#FF1B\>\<#5982\>\<#679C\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5728\>
-  <math|x=-R> \<#5904\>\<#6536\>\<#655B\>\<#FF0C\>\<#7740\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5728\>
-  <math|x=-R> \<#5904\>\<#53F3\>\<#8FDE\>\<#7EED\>\<#3002\><math|>
+  \<#5B9A\>\<#7406\> 10.16 (Abel \<#7B2C\>\<#4E8C\>\<#5B9A\>\<#7406\>)
+  \<#8BBE\>\<#5E42\>\<#7EA7\>\<#6570\><math|<big|sum><rsub|n=0><rsup|\<infty\>>>,
+  \<#5E42\>\<#7EA7\>\<#6570\>\<#662F\>\<#5728\>\<#6536\>\<#655B\>\<#57DF\>\<#5185\>\<#8FDE\>\<#7EED\>\<#FF0E\>
 
   \;
 
@@ -400,11 +423,11 @@
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-2|<tuple|2|1>>
     <associate|auto-3|<tuple|3|2>>
-    <associate|auto-4|<tuple|4|2>>
-    <associate|auto-5|<tuple|4.1|3>>
+    <associate|auto-4|<tuple|4|3>>
+    <associate|auto-5|<tuple|4.1|4>>
     <associate|auto-6|<tuple|5|4>>
-    <associate|auto-7|<tuple|6|4>>
-    <associate|auto-8|<tuple|7|4>>
+    <associate|auto-7|<tuple|6|5>>
+    <associate|auto-8|<tuple|7|5>>
   </collection>
 </references>
 

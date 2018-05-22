@@ -101,6 +101,46 @@
   \<#8BC1\>\<#660E\> <math|<big|sum><rsub|n=1><rsup|\<infty\>>u<rsub|n><around*|(|x|)>>
   \<#5728\> <math|<around*|[|0,1|]>> \<#4E0A\>\<#4E00\>\<#81F4\>\<#8FDE\>\<#7EED\>\<#FF0C\>\<#4F46\>\<#5B83\>\<#4E0D\>\<#5B58\>\<#5728\>\<#6536\>\<#655B\>\<#7684\>\<#4F18\>\<#7EA7\>\<#6570\>\<#FF0E\>
 
+  <section|\<#6781\>\<#9650\>\<#51FD\>\<#6570\>\<#4E0E\>\<#548C\>\<#51FD\>\<#6570\>\<#7684\>\<#6027\>\<#8D28\>>
+
+  <\description>
+    <item*|1>
+
+    <\description>
+      <item*|(1)><math|lim<rsub|n\<rightarrow\>\<infty\>><sqrt|<rsup|>s><around*|(|x+<frac|1|n>|)><rsup|n>=>
+
+      <item*|(2)>\<#5F53\> <math|x> \<#56FA\>\<#5B9A\>\<#540E\>\<#FF0C\><math|<frac|1|n+<frac|x<rsup|2>|n>>>
+      \<#4ECE\>\<#67D0\>\<#9879\>\<#5F00\>\<#59CB\>\<#5355\>\<#8C03\>\<#9012\>\<#51CF\>\<#FF0C\>
+    </description>
+
+    <item*|\<#FF15\>>\<#5DF2\>\<#77E5\> <math|<big|sum><rsub|n=1><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n-1>|n>=ln2>,
+    \<#8BC1\>\<#660E\>:
+
+    <\equation*>
+      lim<rsub|x=1><big|sum><rsub|n=1><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n-1>|n<rsup|x>>=ln2
+    </equation*>
+
+    \<#8BC1\>\<#FF1A\>
+
+    \;
+  </description>
+
+  <section|\<#7531\>\<#5E42\>\<#7EA7\>\<#6570\>\<#786E\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\>>
+
+  <\enumerate-numeric>
+    <item>
+
+    <\description>
+      <item*|(2)>
+
+      <item*|(3)>
+    </description>
+
+    <item>
+  </enumerate-numeric>
+
+  \;
+
   <section|\<#51FD\>\<#6570\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5C55\>\<#5F00\>\<#5F0F\>>
 
   <\description>
@@ -133,20 +173,10 @@
       <item*|(3)>\<#5F53\> <math|x\<neq\>0> \<#65F6\>\<#FF0C\>
 
       <\equation*>
-        <tabular|<tformat|<table|<row|<cell|<frac|x|<around*|(|1-x|)><around*|(|1-x<rsup|2>|)>>>|<cell|=>|<cell|-<frac|1|<around*|(|1-x<rsup|2>|)>>\<cdot\><frac|1|<around*|(|1-<frac|1|x>|)>>>>|<row|<cell|>|<cell|=>|<cell|-<big|sum><rsub|n=0><rsup|\<infty\>>x<rsup|2n><big|sum><rsub|n=0><rsup|\<infty\>>x<rsup|-n>>>|<row|<cell|>|<cell|=>|<cell|-<big|sum><rsub|n=0><rsup|\<infty\>><big|sum>x<rsup|n>>>>>>
+        <tabular|<tformat|<table|<row|<cell|<frac|x|<around*|(|1-x|)><around*|(|1-x<rsup|2>|)>>>|<cell|=>|<cell|-<frac|1|\<#FF14\><around*|(|1-x|)>>-<frac|1|4<around*|(|1+x|)>>+<frac|1|2<around*|(|1-x|)><rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|4><big|sum><rsub|n=0><rsup|\<infty\>>x<rsup|n>-<frac|1|4><big|sum><rsub|n=0><rsup|\<infty\>><around*|(|-1|)><rsup|n>x<rsup|n>+<frac|1|2>>>>>>
       </equation*>
 
-      \<#5F53\> <math|x=0> \<#65F6\>\<#FF0C\>
-
-      <\equation*>
-        <frac|x|<around*|(|1-x|)><around*|(|1-x<rsup|2>|)>>=0
-      </equation*>
-
-      \<#6545\>
-
-      <\equation*>
-        <frac|x|<around*|(|1-x|)><around*|(|1-x<rsup|2>|)>>=
-      </equation*>
+      <math|<around*|(|<around*|\||x|\|>\<less\>1|)>>
 
       <item*|(4)>
 
@@ -162,7 +192,8 @@
       <item*|(2)>
 
       <\equation*>
-        <tabular|<tformat|<table|<row|<cell|ln<around*|(|x+<sqrt|1+x<rsup|2>>|)>>|<cell|=>|<cell|>>|<row|<cell|>|<cell|=>|<cell|>>>>>
+        <tabular|<tformat|<table|<row|<cell|ln<around*|(|x+<sqrt|1+x<rsup|2>>|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|x><frac|1|<sqrt|1+t<rsup|2>>>dt>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|x><around*|(|1+<big|sum><rsub|n=0><rsup|\<infty\>><frac|-1/2\<times\>-3/2\<cdots\><around*|(|1/2-n|)>|n!>t<rsup|2n>|)>d
+        t>>>>>
       </equation*>
 
       <item*|(3)>
@@ -185,7 +216,9 @@
   <\collection>
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-2|<tuple|2|1>>
-    <associate|auto-3|<tuple|3|?>>
+    <associate|auto-3|<tuple|3|2>>
+    <associate|auto-4|<tuple|4|2>>
+    <associate|auto-5|<tuple|5|2>>
   </collection>
 </references>
 
@@ -201,6 +234,18 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#6781\>\<#9650\>\<#51FD\>\<#6570\>\<#4E0E\>\<#548C\>\<#51FD\>\<#6570\>\<#7684\>\<#6027\>\<#8D28\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>\<#7531\>\<#5E42\>\<#7EA7\>\<#6570\>\<#786E\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5<space|2spc>\<#51FD\>\<#6570\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5C55\>\<#5F00\>\<#5F0F\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
