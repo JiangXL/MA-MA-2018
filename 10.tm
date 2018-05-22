@@ -266,6 +266,15 @@
     <\equation*>
       sin<around*|(|x|)>=<big|sum><rsub|n=0><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n>x<rsup|2n+1>|<around*|(|2n+1|)>!>=x-<frac|x<rsup|3>|3!>+<frac|x<rsup|5>|5!>-\<cdots\>
     </equation*>
+
+    <item>Other:
+
+    <\equation*>
+      <tabular|<tformat|<table|<row|<cell|cos
+      x=<big|sum><rsub|n=0><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n>|<around*|(|2n|)>!>x<rsup|2n>,-\<infty\>\<less\>x\<less\>\<infty\>>>|<row|<cell|ln<around*|(|1+x|)>=<big|sum><rsub|n=1><rsup|n><frac|<around*|(|-1|)><rsup|n-1>|n>x<rsup|n>,-1\<less\>x\<leqslant\>1>>|<row|<cell|arctan<around*|(|x|)>=<big|sum><rsub|n=0><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n>|2n+1>x<rsup|2n+1>,-1\<leqslant\>x\<leqslant\>1>>|<row|<cell|<around*|(|1+x|)><rsup|\<alpha\>>=1+<big|sum><rsub|n=1><rsup|\<infty\>><frac|a<around*|(|a-1|)>\<cdots\><around*|(|a-n+1|)>|n!>x<rsup|n>>>>>>
+    </equation*>
+
+    \;
   </enumerate-numeric>
 
   These power series are also examples of Taylor series. Negative powers are

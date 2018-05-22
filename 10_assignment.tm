@@ -101,7 +101,78 @@
   \<#8BC1\>\<#660E\> <math|<big|sum><rsub|n=1><rsup|\<infty\>>u<rsub|n><around*|(|x|)>>
   \<#5728\> <math|<around*|[|0,1|]>> \<#4E0A\>\<#4E00\>\<#81F4\>\<#8FDE\>\<#7EED\>\<#FF0C\>\<#4F46\>\<#5B83\>\<#4E0D\>\<#5B58\>\<#5728\>\<#6536\>\<#655B\>\<#7684\>\<#4F18\>\<#7EA7\>\<#6570\>\<#FF0E\>
 
-  \;
+  <section|\<#51FD\>\<#6570\>\<#7684\>\<#5E42\>\<#7EA7\>\<#6570\>\<#5C55\>\<#5F00\>\<#5F0F\>>
+
+  <\description>
+    <item*|1>
+
+    <\description>
+      <item*|(1)>
+
+      <\equation*>
+        e<rsup|x<rsup|2>>=<frac|x<rsup|2>|1!>+<frac|x<rsup|2>|2!>+<frac|x<rsup|2>|3!>+\<cdots\>+<frac|x<rsup|2>|n!>+\<cdots\>=<big|sum><rsub|i=0><rsup|\<infty\>><frac|x<rsup|2>|i!>
+      </equation*>
+
+      <item*|(2)>\<#56E0\>\<#4E3A\> <math|cos x> \<#4E0E\> <math|cos x>
+      \<#6709\>\<#7740\>\<#76F8\>\<#540C\>\<#7684\>\<#6536\>\<#655B\>\<#534A\>\<#5F84\>,\<#6240\>\<#4EE5\>
+
+      <\equation*>
+        <tabular|<tformat|<table|<row|<cell|cos<rsup|2>x>|<cell|=>|<cell|<big|sum><rsub|n=0><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n>|<around*|(|2n|)>!>x<rsup|2n+1>\<cdot\><big|sum><frac|<around*|(|-1|)><rsup|n>|<around*|(|2n|)>!>x<rsup|2n+1>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|n=0><rsup|\<infty\>><around*|(|<big|sum><rsub|i=0><rsup|n><frac|<around*|(|-1|)><rsup|n>|<around*|(|2i|)>!\<cdot\><around*|(|2n-2i|)>!>|)>x<rsup|n+2>>>>>>
+      </equation*>
+
+      <item*|(4)>
+
+      <\equation*>
+        <tabular|<tformat|<table|<row|<cell|ln<sqrt|<frac|1+x|1-x>>>|<cell|=>|<cell|<frac|1|2>ln<frac|1+x|1-x>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>ln<around*|(|1+x|)>-<frac|1|2>ln<around*|(|1-x|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><big|sum><rsub|n=0><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n-1>|n>x<rsup|n>-<frac|1|2><big|sum><rsub|n=0><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n-1>|n><around*|(|-x|)><rsup|n>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><big|sum><rsub|n=0><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n-1>|n>x<rsup|n>-<frac|1|2><big|sum><rsub|n=0><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|2n-1>|n>x<rsup|n>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><big|sum><rsub|n=0><rsup|\<infty\>><above|<frac|<around*|(|<around*|(|-1|)><rsup|n-1>-1|)>|n>x<rsup|n>|>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|n=0><rsup|\<infty\>><frac|x<rsup|2n+1>|2n+1>>>>>>
+      </equation*>
+    </description>
+
+    <item*|2>
+
+    <\description>
+      <item*|(3)>\<#5F53\> <math|x\<neq\>0> \<#65F6\>\<#FF0C\>
+
+      <\equation*>
+        <tabular|<tformat|<table|<row|<cell|<frac|x|<around*|(|1-x|)><around*|(|1-x<rsup|2>|)>>>|<cell|=>|<cell|-<frac|1|<around*|(|1-x<rsup|2>|)>>\<cdot\><frac|1|<around*|(|1-<frac|1|x>|)>>>>|<row|<cell|>|<cell|=>|<cell|-<big|sum><rsub|n=0><rsup|\<infty\>>x<rsup|2n><big|sum><rsub|n=0><rsup|\<infty\>>x<rsup|-n>>>|<row|<cell|>|<cell|=>|<cell|-<big|sum><rsub|n=0><rsup|\<infty\>><big|sum>x<rsup|n>>>>>>
+      </equation*>
+
+      \<#5F53\> <math|x=0> \<#65F6\>\<#FF0C\>
+
+      <\equation*>
+        <frac|x|<around*|(|1-x|)><around*|(|1-x<rsup|2>|)>>=0
+      </equation*>
+
+      \<#6545\>
+
+      <\equation*>
+        <frac|x|<around*|(|1-x|)><around*|(|1-x<rsup|2>|)>>=
+      </equation*>
+
+      <item*|(4)>
+
+      <\equation*>
+        <tabular|<tformat|<table|<row|<cell|<around*|(|1+x<rsup|2>|)>arctan
+        x>|<cell|=>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>>
+      </equation*>
+    </description>
+
+    <item*|3>
+
+    <\description>
+      <item*|(2)>
+
+      <\equation*>
+        <tabular|<tformat|<table|<row|<cell|ln<around*|(|x+<sqrt|1+x<rsup|2>>|)>>|<cell|=>|<cell|>>|<row|<cell|>|<cell|=>|<cell|>>>>>
+      </equation*>
+
+      <item*|(3)>
+
+      <\equation*>
+        <tabular|<tformat|<table|<row|<cell|<big|int><rsub|0><rsup|t><frac|sin
+        t|t>d t>|<cell|=>|<cell|>>|<row|<cell|>|<cell|>|<cell|>>>>>
+      </equation*>
+    </description>
+  </description>
 </body>
 
 <\initial>
@@ -114,6 +185,7 @@
   <\collection>
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-2|<tuple|2|1>>
+    <associate|auto-3|<tuple|3|?>>
   </collection>
 </references>
 
