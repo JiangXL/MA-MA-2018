@@ -1,4 +1,4 @@
-<TeXmacs|1.99.6>
+<TeXmacs|1.99.5>
 
 <style|<tuple|generic|chinese>>
 
@@ -21,6 +21,11 @@
 
       <item*|6)><math|<big|int><rsub|1><rsup|+\<infty\>><frac|<around*|(|log
       x|)><rsup|p>|1+x<rsup|2>>d x,p\<gtr\>0>. \<#6536\>\<#655B\>
+
+      <\equation*>
+        lim<rsub|n\<rightarrow\>\<infty\>><frac|<frac|<around*|(|lnx|)><rsup|p>|1+x<rsup|2>>|<frac|1|x<rsup|3/2>>>=lim<rsub|n\<rightarrow\>\<infty\>><frac|x<rsup|3/2>|1+x<rsup|2>><around*|(|ln
+        x|)><rsup|p>=
+      </equation*>
     </description>
 
     <item*|2>\<#8BBE\> <math|<big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x|)>d
@@ -37,6 +42,23 @@
     <math|<below|lim|x\<rightarrow\>+\<infty\>>f<around*|(|x|)>=b>
     \<#5B58\>\<#5728\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5FC5\>\<#6709\>
     <math|b=0>.
+
+    \<#53CD\>\<#8BC1\>\<#6CD5\>\<#FF1A\> \<#82E5\> <math|b\<neq\>0>,
+    \<#4E0D\>\<#9632\>\<#8BBE\> <math|b\<gtr\>0>.
+
+    <\equation*>
+      lim<rsub|n\<longrightarrow\>\<infty\>>f<around*|(|x|)>=b
+    </equation*>
+
+    <math|\<forall\>A\<gtr\>a>, s.t. <math|x\<gtr\>A>\<#65F6\>\<#FF0C\>
+    <math|f<around*|(|x|)>\<gtr\>b/2\<gtr\>0>
+
+    <math|<big|int><rsup|+\<infty\>><rsub|A>f<around*|(|x|)>\<geqslant\><big|int><rsub|A><rsup|+\<infty\>>b/2=+\<infty\>>
+
+    <math|\<Rightarrow\><big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x|)>=<big|int><rsub|0><rsup|A>f<around*|(|x
+    |)>d x+<big|int><rsub|A><rsup|+\<infty\>>f<around*|(|x |)>d x>\ 
+
+    <math|\<Rightarrow\>> \<#5047\>\<#8BBE\>\<#4E0D\>\<#6210\>\<#7ACB\>\<#3002\>
 
     <item*|3>\<#8BC1\>\<#660E\>\<#79EF\>\<#5206\>
     <math|<big|int><rsub|0><rsup|+\<infty\>><frac|x d
@@ -82,6 +104,11 @@
     11.4 \<#7684\>\<#6536\>\<#655B\>\<#6570\>\<#5217\>\<#FF0C\>\<#4F7F\>\<#5F97\>\<#5B9A\>\<#7406\>11.4
     \<#6210\>\<#7ACB\>\<#3002\>\<#6545\>\<#79EF\>\<#5206\>\<#6536\>\<#655B\>\<#3002\>
 
+    <math|\<Rightarrow\>> <math|<big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x|)>
+    d x=I> <math|\<Rightarrow\>> <math|/?lim<rsub|n\<rightarrow\>\<infty\>><big|int><rsub|a><rsup|A>>???
+
+    ???
+
     \;
   </description>
 
@@ -94,8 +121,22 @@
     <\description>
       <item*|1)>\<#6536\>\<#655B\>
 
-      <item*|3)>\<#6839\>\<#636E\> Dirichlet
-      \<#5224\>\<#522B\>\<#6CD5\>\<#FF0C\>\<#79EF\>\<#5206\>\<#6536\>\<#655B\>
+      <math|<big|int><rsub|0><rsup|+\<infty\>><frac|<sqrt|x>cos x|1+x>d
+      x=<big|int><rsub|0><rsup|1><frac|<sqrt|x>cos x|1+x>d
+      x+<big|int><rsub|1><rsup|+\<infty\>><frac|<sqrt|x>cos x|1+x>d x>
+
+      \<#53EA\>\<#9700\>\<#8981\>\<#7814\>\<#7A76\>
+      <math|<big|int><rsub|1><rsup|+\<infty\>><frac|<sqrt|x>cos x|1+x>d x>,
+      \<#7531\> Dirichlet \<#5224\>\<#522B\>\<#6CD5\>\<#FF0C\>
+      <math|<big|int><rsup|+\<infty\>><rsub|a>cos x> \<#5728\>
+      <math|<around*|(|0,+\<infty\>|)>> \<#4E0A\>\<#6709\>\<#754C\>\<#FF0C\>\<#4E14\>
+      <math|<frac|<sqrt|x>|1+x>>
+
+      <item*|3)><math|<frac|cos<rsup|2>x|x>=<frac|1|2x>+<frac|cos 2x|2x>>
+
+      \<#6839\>\<#636E\> Dirich1et \<#5224\>\<#522B\>\<#6CD5\>, .
+      \<#5176\>\<#4E2D\> <math|<frac|1|2x>>
+      \<#53D1\>\<#6563\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#79EF\>\<#5206\>\<#53D1\>\<#6563\>
     </description>
 
     <item*|2>
@@ -103,12 +144,18 @@
     <\description>
       <item*|1)>
 
-      <item*|3)>
+      <item*|3)>\<#5728\><math|<big|int><rsub|0><rsup|+\<infty\>>=<big|int><rsub|0><rsup|1>+<big|int><rsub|1><rsup|+\<infty\>>>=
+
+      \<#6761\>\<#4EF6\>\<#6536\>\<#655B\>
     </description>
 
     <item*|3>
 
-    <item*|4>
+    <item*|4><math|f<around*|(|x|)>sin<rsup|2>x=<frac|f<around*|(|x|)>|2>-<frac|f<around*|(|x|)>cos
+    2x|2>>
+
+    \<#7531\>\<#4E8E\> <math|<frac|f<around*|(|x|)> cos 2x|2>>
+    \<#6536\>\<#655B\>\<#FF0C\>\<#6240\>\<#4EE5\> \<#540C\>\<#655B\>\<#6563\>
   </description>
 </body>
 
@@ -121,3 +168,18 @@
     <associate|auto-2|<tuple|2|?>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <with|par-left|<quote|1tab>|1<space|2spc>\<#975E\>\<#8D1F\>\<#51FD\>\<#6570\>\<#65E0\>\<#7A77\>\<#79EF\>\<#5206\>\<#7684\>\<#6536\>\<#655B\>\<#5224\>\<#522B\>\<#6CD5\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1>>
+
+      <with|par-left|<quote|1tab>|2<space|2spc>\<#65E0\>\<#7A77\>\<#79EF\>\<#5206\>\<#7684\>
+      Dirichlet \<#548C\> Abel \<#5224\>\<#522B\>\<#6CD5\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2>>
+    </associate>
+  </collection>
+</auxiliary>

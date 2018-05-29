@@ -1,4 +1,4 @@
-<TeXmacs|1.99.6>
+<TeXmacs|1.99.5>
 
 <style|<tuple|generic|chinese>>
 
@@ -63,7 +63,7 @@
 
   <\enumerate-numeric>
     <item>\<#5F53\> <math|0\<less\>l\<less\>+\<infty\>>
-    \<#65F6\>\<#FF0C\>\<#79EF\>\<#5206\>\<#540C\>\<#655B\>\<#6563\>
+    \<#65F6\>\<#FF0C\>\<#79EF\>\<#5206\>\<#540C\>\<#655B\>\<#6563\>.(\<#8D8B\>\<#4E8E\>\<#65E0\>\<#7A77\>\<#7684\>\<#901F\>\<#5EA6\>\<#76F8\>\<#8FD1\>)
 
     <item>\<#5F53\> <math|l=0> \<#65F6\>, \<#5982\>\<#679C\>
     <math|<big|int><rsub|a><rsup|+\<infty\>>g<around*|(|x|)>>
@@ -207,7 +207,7 @@
 
     <item><math|g> \<#5728\> <math|<around*|[|a,+\<infty\>|]>>
     \<#4E0A\>\<#5355\>\<#8C03\>\<#FF0C\> \<#4E14\>
-    <math|lim<rsub|x\<rightarrow\>+\<infty\>>g<around*|(|x|)>=0>;
+    <math|<below|lim|x\<rightarrow\>+\<infty\>>g<around*|(|x|)>=0>;
   </enumerate-numeric>
 
   \<#90A3\>\<#4E48\>\<#79EF\>\<#5206\>\<#FF0C\>
@@ -231,6 +231,14 @@
     <item><math|g> \<#5728\> <math|<around*|[|a,+\<infty\>|)>>
     \<#4E0A\>\<#5355\>\<#8C03\>\<#6709\>\<#754C\>.
   </enumerate-numeric>
+
+  \<#90A3\>\<#4E48\>\<#79EF\>\<#5206\>
+
+  <\equation*>
+    <big|int><rsub|a><rsup|+\<infty\>>g<around*|(|x|)>f<around*|(|x|)>d x
+  </equation*>
+
+  \<#6536\>\<#655B\>\<#3002\><strong|>
 
   \;
 
@@ -337,7 +345,72 @@
 
   \;
 
-  \ 
+  \ \<#4F8B\> 5\<#FF0C\> \<#8BBE\> <math|p\<gtr\>0>,
+  \<#8BA8\>\<#8BBA\>\<#79EF\>\<#5206\>
+
+  <\equation*>
+    <big|int><rsub|0><rsup|1><frac|sin<frac|1|x>|x<rsup|p>>d x
+  </equation*>
+
+  \<#7684\>\<#655B\>\<#6563\>\<#6027\>\<#3002\>
+
+  \<#89E3\>: \<#8FD9\>\<#662F\>\<#4E00\>\<#4E2A\> <math|x=0>
+  \<#4E3A\>\<#7455\>\<#70B9\>\<#7684\>\<#7455\>\<#79EF\>\<#5206\>\<#3002\>
+
+  \<#4F8B\> 6, \<#8BBE\> <math|\<alpha\>\<gtr\>0>,
+  \<#8BA8\>\<#8BBA\>\<#79EF\>\<#5206\>
+
+  <\equation*>
+    I=<big|int><rsub|0><rsup|+\<infty\>><around*|[|<around*|(|1-<frac|sin
+    x|x>|)><rsup|-\<alpha\>>-1|]>d x
+  </equation*>
+
+  \<#7684\>\<#655B\>\<#6563\>\<#3002\>
+
+  \<#89E3\>\<#FF1A\> \<#56E0\>\<#4E3A\>\<#5F53\> <math|x\<rightarrow\>0>,
+  <math|<frac|sin x|x>\<rightarrow\>1>, \<#6240\>\<#4EE5\> <math|x=0>
+  \<#662F\>\<#4E00\>\<#4E2A\>\<#7455\>\<#70B9\>\<#3002\>\<#4E3A\>\<#6B64\>\<#79EF\>\<#5206\>\<#5206\>\<#6210\>\<#4E24\>\<#4E2A\>\<#90E8\>\<#5206\>\<#FF1A\>
+
+  <\equation*>
+    I=<big|int><rsub|0><rsup|1><around*|[|<around*|(|1-<frac|sin
+    x|x>|)><rsup|-\<alpha\>>-1|]>d x+<big|int><rsub|1><rsup|+\<infty\>><around*|[|<around*|(|1-<frac|sin
+    x|x>|)><rsup|-\<alpha\>>-1|]> d x=I<rsub|1>+I<rsub|2>
+  </equation*>
+
+  <math|I<rsub|1>> \<#662F\>\<#5426\>\<#6536\>\<#655B\>\<#53D6\>\<#51B3\>\<#4E8E\>\ 
+
+  <\equation*>
+    I<rsub|1><rprime|'>=<big|int><rsub|0><rsup|1><around*|(|1-<frac|sin
+    x|x>|)><rsup|-\<alpha\>>d x
+  </equation*>
+
+  \<#662F\>\<#5426\>\<#6536\>\<#655B\>\<#3002\>\<#56E0\>\<#4E3A\>\<#5F53\>
+  <math|x\<rightarrow\>0> \<#65F6\>\<#FF0C\>
+
+  <\equation*>
+    sin x=x-<frac|1|3!>x<rsup|3>+O<around*|(|x<rsup|5>|)>,
+  </equation*>
+
+  \<#6240\>\<#4EE5\>
+
+  <\equation*>
+    1-<frac|sin x|x>=<frac|1|3!>x<rsup|2>+O<around*|(|x<rsup|5>|)>
+  </equation*>
+
+  \<#56E0\>\<#800C\>\<#5F53\> <math|x\<rightarrow\>0>\<#65F6\>\<#FF0C\>
+
+  <\equation*>
+    <around*|(|1-<frac|sin x|x>|)><rsup|-\<alpha\>>\<sim\><around*|(|<frac|1|6>|)><rsup|-\<alpha\>>x<rsup|-2\<alpha\>>
+  </equation*>
+
+  \<#6545\>\<#5F53\> <math|\<alpha\>\<less\>1/2> \<#65F6\>\<#FF0C\>
+  <math|I<rsub|1><rprime|'>> \<#6536\>\<#655B\>\<#3002\> \<#7531\>\<#4E8E\>
+  <math|<frac|sin x|x>\<leqslant\>1>, \<#6545\> <math|I<rsub|1><rprime|'>>
+  \<#7EDD\>\<#5BF9\>\<#6536\>\<#655B\>\<#3002\>\<#518D\>\<#770B\>
+  <math|I<rsub|2>>, \<#56E0\>\<#4E3A\> <math|<around*|\||<frac|sin
+  x|x>|\|>\<less\>1>
+
+  \;
 </body>
 
 <\initial>
