@@ -1,4 +1,4 @@
-<TeXmacs|1.99.5>
+<TeXmacs|1.99.6>
 
 <style|<tuple|generic|chinese>>
 
@@ -196,9 +196,9 @@
   \<#501F\>\<#52A9\>\<#7B2C\>\<#4E8C\>\<#4E2D\>\<#503C\>\<#5E73\>\<#5747\>\<#503C\>\<#5B9A\>\<#7406\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#5F97\>\<#5230\>
   Dirchlet \<#548C\> Abel \<#5224\>\<#522B\>\<#6CD5\>\<#FF0E\>
 
-  \<#5B9A\>\<#7406\> 11.9 (Dirichlet \<#5224\>\<#522B\>\<#6CD5\>)
-  \<#5982\>\<#679C\> <math|f> \<#548C\> <math|g>
-  \<#6EE1\>\<#8DB3\>\<#4E0B\>\<#9762\>\<#4E24\>\<#4E2A\>\<#6761\>\<#4EF6\>:
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 11.9 (Dirichlet
+  \<#5224\>\<#522B\>\<#6CD5\>)> \<#5982\>\<#679C\> <math|f> \<#548C\>
+  <math|g> \<#6EE1\>\<#8DB3\>\<#4E0B\>\<#9762\>\<#4E24\>\<#4E2A\>\<#6761\>\<#4EF6\>:
 
   <\enumerate-numeric>
     <item><math|F<around*|(|A|)>=<big|int><rsub|a><rsup|A>f<around*|(|x|)>d
@@ -350,7 +350,7 @@
   <\collection>
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-2|<tuple|2|2>>
-    <associate|auto-3|<tuple|3|?>>
+    <associate|auto-3|<tuple|3|3>>
   </collection>
 </references>
 
@@ -365,6 +365,10 @@
       Dirichlet \<#548C\> Abel \<#6536\>\<#655B\>\<#5224\>\<#522B\>\<#6CD5\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#7455\>\<#79EF\>\<#5206\>\<#7684\>\<#6536\>\<#655B\>\<#5224\>\<#522B\>\<#6CD5\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
