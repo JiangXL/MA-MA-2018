@@ -3,7 +3,7 @@
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|12 Fourier \<#5206\>\<#6790\>>|<doc-author|<author-data|<author-name|\<#6C5F\>\<#5FC3\>\<#5E90\>>|<\author-affiliation>
+  <doc-data|<doc-title|12 Fourier \<#5206\>\<#6790\>>|<doc-author|<author-data|<author-name|\<#6C5F\>\<#5FC3\>\<#5E90\>(\<#6574\>\<#7406\>)>|<\author-affiliation>
     <date|>
   </author-affiliation>>>>
 
@@ -22,9 +22,9 @@
   \<#53EF\>\<#4EE5\>\<#8BC1\>\<#660E\>\<#FF0C\>\<#4E09\>\<#89D2\>\<#51FD\>\<#6570\>\<#7CFB\>\<#662F\>\<#6B63\>\<#4EA4\>\<#7684\>\<#3002\>
 
   <\equation*>
-    \<#FF5B\><tabular|<tformat|<table|<row|<cell|a<rsub|n>=<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>cos
-    n x d x,n=0,1,2\<cdots\>;>>|<row|<cell|b<rsub|n>=<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>
-    sin n x d x,n=0,1,2\<cdots\>;>>>>>
+    <around*|{|<tabular|<tformat|<table|<row|<cell|a<rsub|n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>cos
+    n x d x,n=0,1,2\<cdots\>;>>|<row|<cell|b<rsub|n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>
+    sin n x d x,n=0,1,2\<cdots\>;>>>>>|\<nobracket\>>
   </equation*>
 
   <\equation*>
@@ -188,7 +188,8 @@
   <subsection|Fourier \<#7EA7\>\<#6570\>\<#7684\>\<#6536\>\<#655B\>\<#5B9A\>\<#7406\>>
 
   \<#73B0\>\<#5728\>\<#8BA8\>\<#8BBA\> Fourier
-  \<#7EA7\>\<#6570\>\<#7684\>\<#6536\>\<#655B\>\<#95EE\>\<#9898\>\<#FF0C\>
+  \<#7EA7\>\<#6570\>\<#7684\>\<#6536\>\<#655B\>\<#95EE\>\<#9898\>\<#FF0C\>\<#5BF9\>
+  <math|<frac|a<rsub|0>|2>>
 
   <\equation>
     S<rsub|n><around*|(|x<rsub|0>|)>=<frac|1|\<pi\>><big|int><rsub|0><rsup|\<pi\>><around*|(|f<around*|(|x<rsub|0>+t|)>+f<around*|(|x<rsub|0>-t|)>|)><frac|sin<around*|(|n+1/2|)>t|2
@@ -234,22 +235,130 @@
 
   \<#800C\>\<#8FD9\>\<#4E2A\>\<#79EF\>\<#5206\>\<#7684\>\<#503C\>\<#4EC5\>\<#4E0E\>
   <math|f> \<#5728\> <math|<around*|(|x<rsub|0>-\<delta\>,x<rsub|0>+\<delta\>|)>>
-  \<#4E2D\>\<#7684\>\<#503C\>\<#6709\>\<#5173\>\<#3002\>
+  \<#4E2D\>\<#7684\>\<#503C\>\<#6709\>\<#5173\>\<#3002\>\<#4E0B\>\<#9762\>\<#5C06\>\<#8BC1\>\<#660E\>
+  <math|f<around*|(|x|)>> \<#7684\> Fourier
+  \<#7EA7\>\<#6570\>\<#5728\>\<#4E00\>\<#5B9A\>\<#6761\>\<#4EF6\>\<#4E0B\>\<#6536\>\<#655B\>\<#5230\>\<#81EA\>\<#5DF1\>\<#FF0E\>
 
   \;
 
-  \;
+  \<#5B9A\>\<#7406\> 12.4 \<#8BBE\> <math|f>
+  \<#662F\>\<#5468\>\<#671F\>\<#4E3A\> <math|2\<pi\>> \<#4E14\>\<#5728\>
+  <math|<around*|[|-\<pi\>,\<pi\>|]>> \<#4E0A\>\<#53EF\>\<#79EF\>\<#6216\>\<#7EDD\>\<#5BF9\>\<#53EF\>\<#79EF\>\<#7684\>\<#51FD\>\<#6570\>.
+  \<#90A3\>\<#4E48\> <math|f> \<#7684\> Fourier
+  \<#7EA7\>\<#6570\>\<#5728\>\<#70B9\> <math|x<rsub|0>>
+  \<#662F\>\<#5426\>\<#6536\>\<#655B\>\<#FF0C\>\<#4EE5\>\<#53CA\>\<#6536\>\<#655B\>\<#5230\>\<#4EC0\>\<#4E48\>\<#6570\>\<#503C\>\<#FF0C\>\<#4EC5\>\<#4E0E\>
+  <math|f> \<#5728\> <math|x<rsub|0>> \<#70B9\>\<#9644\>\<#8FD1\>\<#7684\>\<#884C\>\<#4E3A\>\<#6709\>\<#4E2A\>\<#3002\><with|prog-scripts|sage|>
+
+  \<#5B9A\>\<#7406\> 12.5(Dini \<#5224\>\<#522B\>\<#6CD5\>) \<#8BBE\>
+  <math|f> \<#662F\>\<#5468\>\<#671F\>\<#4E3A\> <math|2\<pi\>>
+  \<#4E14\>\<#5728\> <math|<around*|[|-\<pi\>,\<pi\>|]>>
+  \<#4E0A\>\<#53EF\>\<#79EF\>\<#6216\>\<#7EDD\>\<#5BF9\>\<#53EF\>\<#79EF\>\<#7684\>\<#51FD\>\<#6570\>\<#3002\>\<#5BF9\>\<#67D0\>\<#4E2A\>\<#5B9E\>\<#6570\>
+  <math|s>, \<#547D\>
+
+  <\equation*>
+    \<varphi\><around*|(|t|)>=f<around*|(|x<rsub|0>+t|)>+f<around*|(|x<rsub|0>-t|)>-2s
+  </equation*>
+
+  \<#5982\>\<#679C\>\<#5B58\>\<#5728\> <math|\<delta\>\<gtr\>0>,
+  \<#4F7F\>\<#5F97\>\<#51FD\>\<#6570\> <math|<frac|\<varphi\><around*|(|t|)>|t>>
+  \<#5728\> <math|<around*|[|0,\<delta\>|]>>
+  \<#4E0A\>\<#53EF\>\<#79EF\>\<#6216\>\<#7EDD\>\<#5BF9\>\<#53EF\>\<#79EF\>\<#FF0C\>\<#90A3\>\<#4E48\>
+  <math|f> \<#7684\>Fourier \<#7EA7\>\<#6570\>\<#5728\> <math|x<rsub|0>>
+  \<#5904\>\<#6536\>\<#655B\>\<#4E8E\> s.
+
+  \<#8BC1\>:
+
+  <\enumerate-numeric>
+    <item>\<#5E38\>\<#503C\>\<#51FD\>\<#6570\>1 \<#7684\>Fourier
+    \<#7EA7\>\<#6570\>\<#662F\>\<#5B83\>\<#81EA\>\<#5DF1\>
+
+    <\equation*>
+      <frac|\<#FF12\>|\<pi\>><big|int><rsub|0>d<rsup|\<pi\>>
+    </equation*>
+
+    <item>
+
+    <item>
+  </enumerate-numeric>
+
+  \<#5B9A\>\<#7406\> 12.6 \<#8BBE\> <math|f> \<#662F\>\<#5468\>\<#671F\>
+  <math|2\<pi\>> \<#4E14\>\<#5728\><math|<around*|[|-\<pi\>,\<pi\>|]>>
+  \<#4E0A\>\<#53EF\>\<#79EF\>\<#6216\>\<#7EDD\>\<#5BF9\>\<#53EF\>\<#79EF\>\<#7684\>\<#51FD\>\<#6570\>\<#FF0E\>\<#5982\>\<#679C\>
+  <math|f> \<#5728\> <math|x<rsub|0>> \<#9644\>\<#8FD1\>\<#6EE1\>\<#8DB3\>
+  <math|\<alpha\>> \<#9636\> Lipschitz \<#6761\>\<#4EF6\>\<#FF0C\>\<#90A3\>\<#4E48\>
+  <math|f> \<#7684\> Fourier \<#7EA7\>\<#6570\>\<#5728\> <math|x<rsub|0>>
+  \<#5904\>\<#6536\>\<#655B\>\<#4E8E\> <math|<frac|1|2><around*|(|f<around*|(|x<rsub|0>+0|)>+f<around*|(|x<rsub|0>-0|)>|)>>.
+
+  \<#5B9A\>\<#7406\> 12.7 \<#8BBE\> <math|f>
+  \<#662F\>\<#5468\>\<#671F\>\<#4E3A\> <math|2\<pi\>> \<#4E14\>\<#5728\>
+  <math|<around*|[|-\<pi\>,\<pi\>|]>> \<#4E0A\>\<#53EF\>\<#79EF\>\<#6216\>\<#7EDD\>\<#5BF9\>\<#53EF\>\<#79EF\>\<#FF0E\>\<#5982\>\<#679C\>
+  <math|f> \<#5728\> <math|x<rsub|0>> \<#5904\>\<#5B58\>\<#5728\>\<#5BFC\>\<#6570\>
+  <math|f<rprime|'><around*|(|x<rsub|0>|)>>,
+  \<#6216\>\<#8005\>\<#6709\>\<#4E24\>\<#4E2A\>\<#6709\>\<#9650\>\<#7684\>\<#5355\>\<#4FA7\>\<#5BFC\>\<#6570\>\<#FF1A\>
+
+  <\equation*>
+    <tabular|<tformat|<table|<row|<cell|f<rprime|'><rsub|+><around*|(|x<rsub|0>|)>>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0<rsup|<rsub|+>>><frac|f<around*|(|x<rsub|0>+t|)>-f<around*|(|x<rsub|0>|)>|t>>>|<row|<cell|f<rprime|'><rsub|-><around*|(|x<rsub|0>|)>>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0<rsup|+>><frac|f<around*|(|x<rsub|0>-t|)>-f<around*|(|x<rsub|0>|)>|-t>>>>>>
+  </equation*>
+
+  \<#90A3\>\<#4E48\> <math|f> \<#7684\> Fourier \<#7EA7\>\<#6570\>\<#5728\>
+  <math|x<rsub|0>> \<#5904\>\<#6536\>\<#655B\>\<#4E8E\>
+  <math|f<around*|(|x<rsub|0>|)>>. \<#53EF\>\<#4EE5\>\<#5982\>\<#679C\>
+  <math|f> \<#5728\> <math|x<rsub|0>> \<#5904\>\<#4EC5\>\<#6709\>\<#4E24\>\<#4E2A\>\<#6709\>\<#9650\>\<#7684\>\<#5E7F\>\<#4E49\>\<#5355\>\<#4FA7\>\<#5BFC\>\<#6570\>:
+
+  <\equation*>
+    lim<rsub|t\<rightarrow\>0<rsup|+>><frac|f<around*|(|x<rsub|0>+t|)>-f<around*|(|x<rsub|0>+0|)>|t>=lim<rsub|t\<rightarrow\>0<rsup|+>><frac|f<around*|(|x<rsub|0>-t|)>-f<around*|(|x<rsub|0>|)>|-t>,
+  </equation*>
+
+  \<#90A3\>\<#4E48\> <math|f> \<#7684\> Fourier \<#7EA7\>\<#6570\>\<#5728\>
+  <math|x<rsub|0>> \<#5904\>\<#6536\>\<#655B\>\<#4E8E\>
+  <math|<frac|1|2><around*|(|f<around*|(|x<rsub|0>+0|)>+f<around*|(|x<rsub|0>-0|)>|)>>\<#FF0E\>(\<#6536\>\<#655B\>\<#5230\>\<#672C\>\<#8EAB\>\<#FF0E\>)
 
   \;
+
+  \<#6362\>\<#4E00\>\<#79CD\>\<#8BF4\>\<#6CD5\>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#53D1\>\<#73B0\>\<#5BF9\>\<#4E8E\>\<#6BCF\>\<#6BB5\>\<#4E0A\>\<#53EF\>\<#5FAE\>\<#7684\>\<#51FD\>\<#6570\>
+  <math|f> , \<#5176\> Fourier \<#7EA7\>\<#6570\>\<#5728\>\<#6BCF\>\<#70B9\>
+  <math|x<rsub|0>> \<#6536\>\<#655B\>\<#4E8E\>
+  <math|<frac|1|2><around*|(|f<around*|(|x<rsub|0>+0|)>+f<around*|(|x<rsub|0>-0|)>|)>>\<#FF0E\>
+  \<#7279\>\<#522B\>\<#5728\> <math|f> \<#7684\>\<#8FDE\>\<#7EED\>\<#70B9\>\<#5904\>\<#FF0C\>\<#5B83\>\<#6536\>\<#655B\>\<#4E8E\>
+  <math|f<around*|(|x<rsub|0>|)>>. \<#7531\>\<#6B64\>\<#53EF\>\<#89C1\>\<#FF0C\>\<#53EA\>\<#8981\>
+  <math|f> \<#5728\> <math|<around*|[|-\<pi\>.\<pi\>|]>>
+  \<#4E0A\>\<#6709\>\<#4E00\>\<#9636\>\<#5BFC\>\<#6570\>\<#FF0C\>\<#5C31\>\<#80FD\>\<#628A\>\<#5B83\>\<#5C55\>\<#6210\>
+  Fourier \<#7EA7\>\<#6570\>\<#FF0E\>
+
+  \<#5BF9\>\<#4E8E\>\<#5B9A\>\<#4E49\>\<#5728\>
+  <math|<around*|[|-\<pi\>,\<pi\>|]>> \<#6216\>
+  <math|<around*|[|0,2\<pi\>|]>> \<#4E0A\>\<#7684\>\<#8868\>\<#8FBE\>\<#5F0F\>\<#FF0C\>\<#7136\>\<#540E\>\<#628A\>\<#5B83\>\<#6269\>\<#5145\>\<#6210\>\<#6574\>\<#4E2A\>\<#6570\>\<#8F74\>\<#4E0A\>\<#7684\>\<#5468\>\<#671F\>\<#4E3A\>
+  <math|2\<pi\>> \<#7684\>\<#51FD\>\<#6570\>\<#FF0C\>\<#518D\>\<#628A\>\<#5B83\>\<#5C55\>\<#5F00\>\<#4E3A\>
+  Fourier \<#7EA7\>\<#6570\>\<#FF0E\>
+
+  \;
+
+  (\<#4E00\>\<#81F4\>\<#5747\>\<#65B9\>\<#903C\>\<#8FD1\>)
+
+  <subsection|\<#5E94\>\<#7528\>>
+
+  <subsubsection|\<#65B9\>\<#6CE2\>>
+
+  (\<#5199\>\<#7B49\>\<#53F7\>\<#7684\>\<#65F6\>\<#5019\>\<#FF0C\>\<#8BB0\>\<#5F97\>\<#5199\>\<#533A\>\<#95F4\>)
+
+  \;
+
+  \<#6CBF\>\<#62D3\>
 </body>
 
-<initial|<\collection>
-</collection>>
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+    <associate|page-type|b6>
+  </collection>
+</initial>
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?>>
-    <associate|auto-2|<tuple|2|?>>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|2|4>>
+    <associate|auto-3|<tuple|3|7>>
+    <associate|auto-4|<tuple|3.1|7>>
   </collection>
 </references>
 
@@ -264,6 +373,14 @@
       \<#7EA7\>\<#6570\>\<#7684\>\<#6536\>\<#655B\>\<#5B9A\>\<#7406\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|1tab>|3<space|2spc>\<#5E94\>\<#7528\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3>>
+
+      <with|par-left|<quote|2tab>|3.1<space|2spc>\<#65B9\>\<#6CE2\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4>>
     </associate>
   </collection>
 </auxiliary>

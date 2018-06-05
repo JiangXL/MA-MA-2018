@@ -15,9 +15,46 @@
     <math|2\<pi\>> \<#7684\>\<#53EF\>\<#79EF\>\<#6216\>\<#7EDD\>\<#5BF9\>\<#53EF\>\<#79EF\>\<#51FD\>\<#6570\>\<#FF0C\>\<#8BC1\>\<#660E\>:
 
     <\description>
-      <item*|(1)>
+      <item*|(1)>\<#5982\>\<#679C\> <math|f>
+      \<#5728\><math|<around*|[|-\<pi\>,\<pi\>|]>>
+      \<#4E2D\>\<#6EE1\>\<#8DB3\> <math|f<around*|(|x+\<pi\>|)>=f<around*|(|x|)>>,
+      \<#90A3\>\<#4E48\>
 
-      <item*|(2)>
+      <\equation*>
+        a<rsub|2n-1>=b<rsub|2n-1>=0;
+      </equation*>
+
+      \<#8BC1\>:
+
+      <\equation*>
+        <tabular|<tformat|<table|<row|<cell|a<rsub|2n-1>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>cos
+        <around*|(|2n-1|)>x d x,n=1,\<#FF12\>,\<ldots\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>>
+        <big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x+\<pi\>|)>cos
+        <around*|(|<around*|(|2n-1|)>\<mathpi\>+<around*|(|2n-1|)>x|)>d
+        x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>cos
+        <around*|(|\<pi\>+<around*|(|2n-1|)>x|)>d
+        x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>cos
+        <around*|(|2n-1|)>x d x>>|<row|<cell|\<Longrightarrow\>>|<cell|>|<cell|a<rsub|2n-1>=0>>>>>
+      </equation*>
+
+      \<#540C\>\<#7406\>\<#53EF\>\<#8BC1\> <math|b<rsub|2n-1>=a<rsub|2n-1>=0>
+
+      <item*|(2)>\<#5982\>\<#679C\> <math|f> \<#5728\>
+      <math|<around*|[|-\<pi\>,\<pi\>|]>> \<#4E2D\>\<#6EE1\>\<#8DB3\>
+      <math|f<around*|(|x+\<pi\>|)>=-f<around*|(|x|)>>,\<#90A3\>\<#4E48\>
+
+      <\equation*>
+        a<rsub|2n>=b<rsub|2n>=0;
+      </equation*>
+
+      \<#8BC1\>:
+
+      <\equation*>
+        <tabular|<tformat|<table|<row|<cell|a<rsub|2n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>sin
+        2n x d x,n=1,2,3\<ldots\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|\<pi\>><rsup|\<pi\>>f>>|<row|<cell|>|<cell|>|<cell|>>>>>
+      </equation*>
+
+      \;
     </description>
 
     <item*|3>
@@ -75,8 +112,8 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?|../.TeXmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-2|<tuple|2|?|../.TeXmacs/texts/scratch/no_name_2.tm>>
+    <associate|auto-1|<tuple|1|?>>
+    <associate|auto-2|<tuple|2|?>>
   </collection>
 </references>
 
@@ -86,6 +123,11 @@
       <with|par-left|<quote|1tab>|1<space|2spc>\<#5468\>\<#671F\>\<#51FD\>\<#6570\>\<#7684\>
       Fourier \<#7EA7\>\<#6570\> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1>>
+
+      <with|par-left|<quote|1tab>|2<space|2spc>Fourier
+      \<#7EA7\>\<#6570\>\<#7684\>\<#6536\>\<#655B\>\<#5B9A\>\<#7406\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2>>
     </associate>
   </collection>
 </auxiliary>
