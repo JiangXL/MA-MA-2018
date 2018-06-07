@@ -1,4 +1,4 @@
-<TeXmacs|1.99.5>
+<TeXmacs|1.99.6>
 
 <style|<tuple|generic|chinese>>
 
@@ -51,13 +51,57 @@
 
       <\equation*>
         <tabular|<tformat|<table|<row|<cell|a<rsub|2n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>sin
-        2n x d x,n=1,2,3\<ldots\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|\<pi\>><rsup|\<pi\>>f>>|<row|<cell|>|<cell|>|<cell|>>>>>
+        2n x d x,n=1,2,3\<ldots\>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|\<pi\>><big|int><rsub|\<pi\>><rsup|\<pi\>>f<around*|(|x+\<pi\>|)>sin
+        <around*|(|2n\<pi\>+2n x|)>d x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>
+        sin<around*|(|2n x|)>d x>>|<row|<cell|\<Longrightarrow\>>|<cell|>|<cell|a<rsub|2n>=0>>>>>
       </equation*>
 
-      \;
+      \<#540C\>\<#7406\>\<#53EF\>\<#8BC1\> <math|a<rsub|2n>=b<rsub|2n>=0>
     </description>
 
-    <item*|3>
+    <item*|3>\<#8BBE\> <math|a<rsub|n>,b<rsub|n>>
+    \<#662F\>\<#5468\>\<#671F\>\<#4E3A\> <math|2\<pi\>>
+    \<#7684\>\<#53EF\>\<#79EF\>\<#6216\>\<#7EDD\>\<#5BF9\>\<#53EF\>\<#79EF\>\<#51FD\>\<#6570\>
+    <math|f> \<#7684\> Fourier \<#7CFB\>\<#6570\>\<#FF0C\>\<#8BC1\>\<#660E\>\<#5E73\>\<#79FB\>\<#51FD\>\<#6570\>
+    <math|f<around*|(|x+h|)>> \<#7684\> Fourier \<#7CFB\>\<#6570\>\<#662F\>
+
+    <\equation*>
+      <tabular|<tformat|<table|<row|<cell|<overline|a><rsub|n>>|<cell|=>|<cell|a<rsub|n>cos
+      n h+b<rsub|n> sin n h>>|<row|<cell|<overline|b><rsub|n>>|<cell|=>|<cell|b<rsub|n>
+      cos n h-a<rsub|n>sin n h>>>>>
+    </equation*>
+
+    \<#8BC1\>\<#FF1A\>
+
+    \<#5DF2\>\<#77E5\>:
+
+    <\equation*>
+      <tabular|<tformat|<table|<row|<cell|f<around*|(|x|)>>|<cell|=>|<cell|<frac|a<rsub|0>|2>+<big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n>
+      cos n x+b<rsub|n> sin n x|)>>>|<row|<cell|f<around*|(|x+h|)>>|<cell|=>|<cell|<frac|a<rsub|0>|2>+<big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n>
+      cos<around*|(|n x+n h|)>+b<rsub|n>sin <around*|(|n x+n
+      h|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsub|0>|2>+<big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n><around*|(|cos
+      n x\<times\>cos n h+sin n x\<times\>sin n
+      h|)>+b<rsub|n><around*|(||)>|)>>>>>>
+    </equation*>
+
+    <\equation*>
+      <text|><tabular|<tformat|<table|<row|<cell|<overline|a><rsub|n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x+h|)>cos
+      <around*|(|n x+n h|)>d x,n=0,1,2\<ldots\>;>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><around*|(|<frac|a<rsub|0>|2>+<big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n>cos<around*|(|n
+      x+n h|)>+b<rsub|n>sin<around*|(|n x+n h|)>|)>|)>cos<around*|(|n x+n
+      h|)>d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><frac|a<rsub|0>|2>cos<around*|(|n
+      x+x h|)>d x>>|<row|<cell|>|<cell|>|<cell|+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n>cos<around*|(|n
+      x+n h|)>+b<rsub|n>sin<around*|(|n x+n h|)>|)>cos<around*|(|n x+n h|)>d
+      x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><frac|a<rsub|0>|2>cos<around*|(|n
+      x+x h|)>d x+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n>cos<around*|(|n
+      x+n h|)>|)>cos<around*|(|n x+n h|)>d
+      x>>|<row|<cell|>|<cell|>|<cell|+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|n=1><rsup|\<infty\>><around*|(|b<rsub|n>sin<around*|(|n
+      x+n h|)>|)>cos<around*|(|n x+n h|)>d
+      x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><frac|a<rsub|0>|2>cos<around*|(|n
+      x+x h|)>d x+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n>cos<around*|(|n
+      x+n h|)>|)>cos<around*|(|n x+n h|)>d
+      x>>|<row|<cell|>|<cell|>|<cell|+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|n=1><rsup|\<infty\>><around*|(|b<rsub|n>sin<around*|(|n
+      x+n h|)> |)>>>>>>
+    </equation*>
 
     <item*|4>
 
@@ -107,13 +151,16 @@
   </description>
 </body>
 
-<initial|<\collection>
-</collection>>
+<\initial>
+  <\collection>
+    <associate|page-medium|papyrus>
+  </collection>
+</initial>
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?>>
-    <associate|auto-2|<tuple|2|?>>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|2|2>>
   </collection>
 </references>
 
