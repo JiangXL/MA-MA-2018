@@ -164,8 +164,10 @@
       <tabular|<tformat|<table|<row|<cell|a<rsub|n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>cos
       n x d x,n=0,1,2,\<ldots\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|0><rsup|\<pi\>>cos
       n x d x-<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|0>cos n x d
-      x>>|<row|<cell|>|<cell|=>|<cell|<around*|{|<tabular|<tformat|<table|<row|<cell|2>|<cell|,n=0>>|<row|<cell|0>|<cell|,n\<geqslant\>1>>>>>|\<nobracket\>>>>>>>
+      x>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|<around*|{|<tabular|<tformat|<table|<row|<cell|2>|<cell|,n=0>>|<row|<cell|0>|<cell|,n\<geqslant\>1>>>>>|\<nobracket\>>>>>>>
     </equation*>
+
+    <math|a<rsub|0>> \<#8981\>\<#53E6\>\<#5916\>\<#8BA1\>\<#7B97\>
 
     <\equation*>
       <tabular|<tformat|<table|<row|<cell|b<rsub|n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>sin
@@ -174,11 +176,35 @@
       x>>|<row|<cell|>|<cell|=>|<cell|<around*|{|<tabular|<tformat|<table|<row|<cell|<frac|4|\<pi\>>>|<cell|\<#FF0C\>n=1>>|<row|<cell|0>|<cell|,wherelse>>>>>|\<nobracket\>>>>>>>
     </equation*>
 
+    <math|f<around*|(|x|)>> \<#5728\> <math|<around*|(|-\<pi\>,\<pi\>|)>>
+    \<#4E0A\>\<#5206\>\<#6BB5\>\<#53EF\>\<#5FAE\>\<#FF0C\>\ 
+
+    \<#53D6\> <math|x=<frac|\<pi\>|2>>, \<#7EA7\>\<#6570\>=<math|<frac|\<pi\>|4>>
+
     \;
 
     <item*|\<#FF13\>>\<#628A\> <math|f<around*|(|x|)>=x-<around*|[|x|]>>
     \<#5728\> <math|<around*|[|0,1|]>>\<#4E0A\>\<#5C55\>\<#5F00\>\<#4E3A\>
     Fourier \<#7EA7\>\<#6570\>
+
+    <math|<\text>
+      <\equation*>
+        a<rsub|n>=<frac|2|l><big|int><rsub|0><rsup|l>f<around*|(|x|)>cos
+        <frac|2n \<pi\>|l>x d x
+      </equation*>
+
+      <\equation*>
+        b<rsub|n>=<frac|2|l><big|int><rsub|0><rsup|l>f<around*|(|x|)> sin
+        <frac|2n\<pi\>|l>x d x
+      </equation*>
+
+      <math|x=0>, <math|f<around*|(|x|)>>\<#7684\>Fourier\<#7EA7\>\<#6570\>\<#53D1\>\<#6563\>\<#4E0E\>
+      <math|1/2>.
+
+      <\math>
+        \<Longrightarrow\>f<around*|(|x|)>
+      </math>
+    </text>>
 
     <item*|\<#FF14\>>(1) \<#628A\> <math|x> \<#5728\>\<#533A\>\<#95F4\>
     <math|<around*|(|-l,l|)>> \<#4E0A\>\<#5C55\>\<#5F00\>\<#4E3A\> Fourier
@@ -198,6 +224,18 @@
     <\equation*>
       e<rsup|a x>=<frac|e<rsup|2a x>-1|\<pi\>><around*|(|<frac|1|2a>+<big|sum><rsub|k=1><rsup|\<infty\>><frac|a
       cos k x-k sin k x|k<rsup|2>+a<rsup|2>>|)>
+    </equation*>
+
+    \<#8BC1\>:
+
+    <\equation*>
+      <tabular|<tformat|<table|<row|<cell|a<rsub|0>>|<cell|=>|<cell|>>|<row|<cell|a<rsub|n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|0><rsup|2\<pi\>>e<rsup|a
+      x>cos n x d x=<frac|1|n \<pi\>><around*|[|e<rsup|a x>sin n x sin n
+      x<around*|\||<rsub|0><rsup|2\<pi\>>|\<nobracket\>>-<big|int><rsub|0><rsup|2\<pi\>>a
+      sin n x e<rsup|a x>d x|]>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|n\<pi\>><big|int><rsub|0><rsup|2\<pi\>>a
+      e<rsup|a x>sin n x d x>>|<row|<cell|>|<cell|=>|<cell|>>|<row|<cell|b<rsub|n>>|<cell|=>|<cell|<frac|e<rsup|2\<pi\>a>-1|\<pi\>><frac|-n|n<rsup|2>+a<rsup|2>>>>|<row|<cell|e<rsup|a
+      x>>|<cell|=>|<cell|<frac|e<rsup|2\<pi\>
+      a>-1|\<pi\>><around*|[|<frac|1|2>+<big|sum>|]>>>>>>
     </equation*>
   </description>
 </body>

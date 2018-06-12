@@ -334,10 +334,13 @@
       d x.
     </equation*>
   </theorem>
+
+  <subsection|\<#6027\>\<#8D28\>>
 </body>
 
 <\initial>
   <\collection>
+    <associate|font-base-size|10>
     <associate|page-medium|paper>
     <associate|page-type|a4>
   </collection>
@@ -347,6 +350,7 @@
   <\collection>
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-2|<tuple|2|2>>
+    <associate|auto-3|<tuple|3|?>>
   </collection>
 </references>
 

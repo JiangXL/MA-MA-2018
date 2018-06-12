@@ -3,7 +3,7 @@
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|<math|>20 \<#542B\>\<#53C2\>\<#53D8\>\<#91CF\>\<#79EF\>\<#5206\>>|<doc-author|<author-data|<author-name|\<#6C5F\>\<#5FC3\>\<#5E90\>>|<\author-affiliation>
+  <doc-data|<doc-title|<math|>Ÿ 20.\<#542B\>\<#53C2\>\<#53D8\>\<#91CF\>\<#79EF\>\<#5206\>>|<doc-author|<author-data|<author-name|\<#6C5F\>\<#5FC3\>\<#5E90\>>|<\author-affiliation>
     <date|>
   </author-affiliation>>>>
 
@@ -86,6 +86,8 @@
       <\equation*>
         <tabular|<tformat|<table|<row|<cell|f<around*|(|u|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|u>g<around*|(|x+u,x-u|)>d
         x>>|<row|<cell|f<rprime|'><around*|(|u|)>>|<cell|=>|<cell|<big|int><rsub|0><rsup|u><frac|\<partial\>g<around*|(|x+u,x-u|)>|\<partial\>u>
+        d x+g<around*|(|2u,0|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|u><around*|(|<frac|\<partial\>g|\<partial\><around*|(|x+u|)>><frac|\<partial\><around*|(|x+u|)>|\<partial\>u>-<frac|\<partial\>g|\<partial\><around*|(|x-u|)>><frac|\<partial\><around*|(|x-u|)>|\<partial\>u>|)>
+        d x+g<around*|(|2u,0|)>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|u><around*|(|<frac|\<partial\>g|\<partial\><around*|(|x+u|)>>-<frac|\<partial\>g|\<partial\><around*|(|x-u|)>>|)>
         d x+g<around*|(|2u,0|)>>>>>>
       </equation*>
     </description>
@@ -106,8 +108,9 @@
     <math|u\<less\>a\<less\>b>\<#65F6\>,
 
     <\equation*>
-      <tabular|<tformat|<table|<row|<cell|\<varphi\><rprime|'><around*|(|u|)>>|<cell|=>|<cell|<big|int><rsub|a><rsup|b>f<around*|(|x|)>
-      d x>>|<row|<cell|\<varphi\><rprime|''><around*|(|u|)>>|<cell|=>|<cell|0>>>>>
+      <tabular|<tformat|<table|<row|<cell|\<varphi\><rprime|'><around*|(|u|)>>|<cell|=>|<cell|<around*|{|<tabular|<tformat|<table|<row|<cell|<big|int><rsub|a><rsup|b>f<around*|(|x|)>
+      d x>|<cell|u\<gtr\>b>>|<row|<cell|-<big|int><rsub|a><rsup|b>f<around*|(|x|)>
+      d x>|<cell|,u\<less\>a>>>>>|\<nobracket\>>>>|<row|<cell|\<varphi\><rprime|''><around*|(|u|)>>|<cell|=>|<cell|0>>>>>
     </equation*>
 
     \<#5F53\> <math|a\<less\>u\<less\>b> \<#65F6\>,
@@ -136,9 +139,8 @@
       <math|<big|int><rsub|0><rsup|+\<infty\>>sin x d x>
       \<#4E00\>\<#81F4\>\<#6709\>\<#754C\>\<#FF0C\>\<#4E14\> <math|e<rsup|-u
       x>> \<#4E00\>\<#81F4\>\<#8D8B\>\<#4E8E\> 0.
-      \<#6545\>\<#79EF\>\<#5206\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0E\>
-
-      \;
+      \<#6545\>\<#79EF\>\<#5206\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0E\>(\<#53EF\>\<#4EE5\>\<#7528\>Weierstrass
+      \<#5B9A\>\<#7406\>)
 
       <item*|\<#FF08\>3\<#FF09\>>
 
@@ -159,6 +161,8 @@
         x,0\<leqslant\>u\<less\>+\<infty\>.
       </equation*>
 
+      \<#6362\>\<#5143\>
+
       \;
     </description>
 
@@ -169,7 +173,8 @@
     \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0C\>\<#5728\>\<#5305\>\<#542B\>
     <math|u=0> \<#7684\>\<#95ED\>\<#533A\>\<#95F4\>\<#4E0A\>\<#975E\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#3002\>
 
-    \<#8BC1\>\<#660E\>\<#FF1A\>
+    \<#8BC1\>\<#660E\>\<#FF1A\> Dirichlet,
+    <math|<big|int><rsub|0><rsup|+\<infty\>>>
 
     \ 
 
