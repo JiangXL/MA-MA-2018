@@ -157,6 +157,69 @@
     \<#7531\>\<#4E8E\> <math|<frac|f<around*|(|x|)> cos 2x|2>>
     \<#6536\>\<#655B\>\<#FF0C\>\<#6240\>\<#4EE5\> \<#540C\>\<#655B\>\<#6563\>
   </description>
+
+  <subsection|\<#7455\>\<#79EF\>\<#5206\>\<#7684\>\<#6536\>\<#655B\>\<#5224\>\<#522B\>\<#6CD5\>>
+
+  <\description>
+    <item*|\<#FF11\>>
+
+    <\description>
+      <item*|\<#FF08\>\<#FF12\>\<#FF09\>><math|<big|int><rsub|0><rsup|\<infty\>><frac|log<around*|(|1+x|)>|x<rsup|\<alpha\>>>
+      d x>;
+
+      <item*|\<#FF08\>1\<#FF09\>><math|<big|int><rsub|0><rsup|+\<infty\>><frac|x<rsup|a>|1+x<rsup|\<beta\>>>d
+      x,\<beta\>\<geqslant\>0;>\<#5206\>\<#60C5\>\<#51B5\>\<#8BA8\>\<#8BBA\>
+
+      <item*|\<#FF08\>\<#FF14\>\<#FF09\>>\<#6536\>\<#655B\>
+
+      <item*|\<#FF08\>\<#FF15\>)><math|<big|int><rsub|0><rsup|\<pi\>/2><frac|ln
+      sin x|<sqrt|x>> d x>(\<#7528\>\<#5230\>\<#6D1B\>\<#5FC5\>\<#8FBE\>\<#6CD5\>\<#5219\>)
+
+      <math|x=0<rsup|+>>\<#662F\>\<#7455\>\<#70B9\>\<#FF1A\>
+
+      <math|lim<rsub|x\<rightarrow\>0<rsup|+>><frac|<frac|ln sin
+      x|<sqrt|x>>|<frac|1|x<rsup|2/3>>>=lim<rsub|x\<rightarrow\>0<rsup|+>><frac|ln
+      sin x|<frac|1|x<rsup|1/6>>>=lim<rsub|x\<rightarrow\>\<infty\>><frac|<frac|cosx|sinx>|-<frac|1|6><frac|1|x<rsup|7/6>>>=lim>
+
+      <\equation*>
+        <tabular|<tformat|<table|<row|<cell|=>|<cell|lim<rsub|x\<rightarrow\>0<rsup|+>><around*|(|-6|)><frac|x|sin
+        x>x<rsup|1/6>cos x>>|<row|<cell|=>|<cell|1\<times\>0\<times\>1>>|<row|<cell|=>|<cell|0>>>>>
+      </equation*>
+
+      \<#7531\>\<#4E8E\> <math|<big|int><rsub|0><rsup|\<pi\>/2>x<rsup|2/3>d
+      x> \<#6536\>\<#655B\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#539F\>\<#79EF\>\<#5206\>\<#6536\>\<#655B\>\<#FF0E\>
+    </description>
+
+    <item*|\<#FF12\>>\<#8BA8\>\<#8BBA\>\<#7EDD\>\<#5BF9\>\<#6536\>\<#655B\>\<#548C\>\<#76F8\>\<#5BF9\>\<#6536\>\<#655B\>\<#FF0E\>
+
+    (1) <math|<big|int><rsub|0><rsup|+\<infty\>>x<rsup|p>sin<around*|(|x<rsup|q>|)>
+    d x,q\<neq\>0>;
+
+    \<#5206\> <math|q\<gtr\>0,q\<less\>0> \<#8BA8\>\<#8BBA\>
+
+    (2) <math|<big|int><rsub|0><rsup|+\<infty\>><frac|x<rsup|p>sin
+    x|1+x<rsup|q>> d x,q\<geqslant\>0>;(\<#5148\>\<#5206\>\<#533A\>\<#95F4\>\<#FF0C\>\<#5206\>\<#60C5\>\<#51B5\>\<#8BA8\>\<#8BBA\>)
+  </description>
+
+  <subsection|\<#4E60\>\<#9898\>>
+
+  \<#5224\>\<#65AD\>\<#53CD\>\<#5E38\>\<#79EF\>\<#5206\>
+  <math|<big|int><rsub|0><rsup|1>ln sin x d x>
+  \<#7684\>\<#655B\>\<#6563\>\<#6027\>\<#FF0E\>
+
+  \<#89E3\>\<#FF1A\>
+
+  <\enumerate-numeric>
+    <item>
+
+    <item>\<#53CD\>\<#5E38\>\<#79EF\>\<#5206\>\<#7684\>\<#655B\>\<#6563\>\<#6027\>
+
+    <\equation*>
+      \;
+    </equation*>
+  </enumerate-numeric>
+
+  \;
 </body>
 
 <initial|<\collection>
@@ -166,6 +229,8 @@
   <\collection>
     <associate|auto-1|<tuple|1|?>>
     <associate|auto-2|<tuple|2|?>>
+    <associate|auto-3|<tuple|3|?>>
+    <associate|auto-4|<tuple|4|?>>
   </collection>
 </references>
 

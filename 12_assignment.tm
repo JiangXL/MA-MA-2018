@@ -1,4 +1,4 @@
-<TeXmacs|1.99.6>
+<TeXmacs|1.99.5>
 
 <style|<tuple|generic|chinese>>
 
@@ -29,12 +29,12 @@
       <\equation*>
         <tabular|<tformat|<table|<row|<cell|a<rsub|2n-1>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>cos
         <around*|(|2n-1|)>x d x,n=1,\<#FF12\>,\<ldots\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>>
-        <big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x+\<pi\>|)>cos
-        <around*|(|<around*|(|2n-1|)>\<mathpi\>+<around*|(|2n-1|)>x|)>d
-        x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>cos
-        <around*|(|\<pi\>+<around*|(|2n-1|)>x|)>d
-        x>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>cos
-        <around*|(|2n-1|)>x d x>>|<row|<cell|\<Longrightarrow\>>|<cell|>|<cell|a<rsub|2n-1>=0>>>>>
+        <big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x+\<pi\>|)>cos<around*|\<nobracket\>|<around*|(|2n-1|)>x|)>d
+        x>>|<row|<cell|>|<cell|<above|=|t=x+\<pi\>>>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|t|)>cos<around*|(|<around*|(|2n-1|)>t-<around*|(|2n-1|)>\<pi\>|)>d
+        t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|t|)>cos
+        <around*|(|<around*|(|2n-1|)>t-\<pi\>|)>d
+        t>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|t|)>cos
+        <around*|(|2n-1|)>t d t>>|<row|<cell|\<Longrightarrow\>>|<cell|>|<cell|a<rsub|2n-1>=0>>>>>
       </equation*>
 
       \<#540C\>\<#7406\>\<#53EF\>\<#8BC1\> <math|b<rsub|2n-1>=a<rsub|2n-1>=0>
@@ -86,28 +86,61 @@
 
     <\equation*>
       <text|><tabular|<tformat|<table|<row|<cell|<overline|a><rsub|n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x+h|)>cos
-      <around*|(|n x+n h|)>d x,n=0,1,2\<ldots\>;>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><around*|(|<frac|a<rsub|0>|2>+<big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n>cos<around*|(|n
-      x+n h|)>+b<rsub|n>sin<around*|(|n x+n h|)>|)>|)>cos<around*|(|n x+n
+      <around*|(|n x+n h|)>d x,n=0,1,2\<ldots\>;>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><around*|(|<frac|a<rsub|0>|2>+<big|sum><rsub|i=1><rsup|\<infty\>><around*|(|a<rsub|i>cos<around*|(|i
+      x+i h|)>+b<rsub|i>sin<around*|(|i x+i h|)>|)>|)>cos<around*|(|n x+n
       h|)>d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><frac|a<rsub|0>|2>cos<around*|(|n
-      x+x h|)>d x>>|<row|<cell|>|<cell|>|<cell|+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n>cos<around*|(|n
-      x+n h|)>+b<rsub|n>sin<around*|(|n x+n h|)>|)>cos<around*|(|n x+n h|)>d
+      x+x h|)>d x>>|<row|<cell|>|<cell|>|<cell|+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|i=1><rsup|\<infty\>><around*|(|a<rsub|i>cos<around*|(|i
+      x+i h|)>+b<rsub|i>sin<around*|(|i x+i h|)>|)>cos<around*|(|n x+n h|)>d
       x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><frac|a<rsub|0>|2>cos<around*|(|n
-      x+x h|)>d x+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n>cos<around*|(|n
-      x+n h|)>|)>cos<around*|(|n x+n h|)>d
-      x>>|<row|<cell|>|<cell|>|<cell|+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|n=1><rsup|\<infty\>><around*|(|b<rsub|n>sin<around*|(|n
-      x+n h|)>|)>cos<around*|(|n x+n h|)>d
+      x+x h|)>d x+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|i=1><rsup|\<infty\>><around*|(|a<rsub|i>cos<around*|(|i
+      x+i h|)>|)>cos<around*|(|n x+n h|)>d
+      x>>|<row|<cell|>|<cell|>|<cell|+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|i=1><rsup|\<infty\>><around*|(|b<rsub|i>sin<around*|(|i
+      x+i h|)>|)>cos<around*|(|n x+n h|)>d
       x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><frac|a<rsub|0>|2>cos<around*|(|n
-      x+x h|)>d x+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|n=1><rsup|\<infty\>><around*|(|a<rsub|n>cos<around*|(|n
-      x+n h|)>|)>cos<around*|(|n x+n h|)>d
-      x>>|<row|<cell|>|<cell|>|<cell|+<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><big|sum><rsub|n=1><rsup|\<infty\>><around*|(|b<rsub|n>sin<around*|(|n
-      x+n h|)> |)>>>>>>
+      x+x h|)>d x+<frac|a<rsub|n>|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><around*|(|cos<rsup|2>
+      n x\<times\>cos<rsup|2>n h+sin<rsup|2>n x\<times\>sin<rsup|2>n h|)>d
+      x>>|<row|<cell|>|<cell|>|<cell|+<frac|b<rsub|n>|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>><around*|(|-sin<rsup|2>n
+      x cos n h sin n h+cos<rsup|2>n x sin n h cos n h|)>d
+      x>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsub|0>|2\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>cos
+      n x cos n h d x+a<rsub|n>>>>>>
     </equation*>
 
-    <item*|4>
+    <item*|4>\<#5982\>\<#679C\>\<#7EA7\>\<#6570\>
+
+    <\equation*>
+      <frac|<around*|\||a<rsub|0>|\|>|2>+<big|sum><rsub|k=1><rsup|\<infty\>><around*|(|<around*|\||a<rsub|k>|\|>+<around*|\||b<rsub|k>|\|>|)>\<less\>+\<infty\>,
+    </equation*>
+
+    \<#90A3\>\<#4E48\>\<#7EA7\>\<#6570\>
+
+    <\equation*>
+      <frac|a<rsub|0>|2>+<big|sum><rsub|k=1><rsup|\<infty\>><around*|(|a<rsub|k>cos
+      k x+b<rsub|k> sin k x|)>
+    </equation*>
+
+    \<#5FC5\>\<#4E3A\>\<#67D0\>\<#5468\>\<#671F\>\<#4E3A\> <math|2\<pi\>>
+    \<#7684\>\<#51FD\>\<#6570\>\<#7684\> <math|Fourier>
+    \<#7EA7\>\<#6570\>\<#FF0E\>
+
+    \<#8BC1\>:
+
+    \<#4F18\>\<#7EA7\>\<#6570\>\<#FF0C\>
+
+    \;
 
     <item*|5>\<#8BA1\>\<#7B97\>\<#6781\>\<#9650\>
     <abbr|<math|<below|lim|\<lambda\>\<rightarrow\>\<infty\>><big|int><rsub|0><rsup|1>ln
     x cos<rsup|2>\<lambda\>x d x>>
+
+    \<#89E3\>:
+
+    <\equation*>
+      <tabular|<tformat|<table|<row|<cell|\<#539F\>\<#5F0F\>>|<cell|=>|<cell|<frac|1|2>lim<rsub|\<lambda\>\<rightarrow\>\<infty\>><big|int><rsub|0><rsup|1>ln
+      x cos 2\<lambda\>d x>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>lim<rsub|\<lambda\>\<rightarrow\>\<infty\>><big|int><rsup|\<varepsilon\>><rsub|0>ln
+      x cos 2\<lambda\> d x<around*|(|0\<less\>\<varepsilon\>\<less\>1|)>>>|<row|<cell|>|<cell|=>|<cell|>>>>>
+    </equation*>
+
+    \<#5148\>\<#7528\>\<#5206\>\<#6B65\>\<#79EF\>\<#5206\>\<#8BC1\>\<#660E\>\<#7EDD\>\<#5BF9\>\<#53EF\>\<#79EF\>\<#FF0C\>\<#5728\>\<#7528\>
 
     \;
   </description>
@@ -123,7 +156,25 @@
 
     \<#5C55\>\<#5F00\>\<#4E3A\> Fourier \<#7EA7\>\<#6570\>\<#FF0C\>\<#5229\>\<#7528\>\<#8FD9\>\<#7EA7\>\<#6570\>\<#6C42\>\<#7EA7\>\<#6570\>
     <math|<big|sum><rsub|n=1><rsup|\<infty\>><frac|<around*|(|-1|)><rsup|n-1>|2n-1>>
-    \<#7684\>\<#548C\>
+    \<#7684\>\<#548C\>.
+
+    \<#89E3\>:
+
+    <\equation*>
+      <tabular|<tformat|<table|<row|<cell|a<rsub|n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>cos
+      n x d x,n=0,1,2,\<ldots\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|0><rsup|\<pi\>>cos
+      n x d x-<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|0>cos n x d
+      x>>|<row|<cell|>|<cell|=>|<cell|<around*|{|<tabular|<tformat|<table|<row|<cell|2>|<cell|,n=0>>|<row|<cell|0>|<cell|,n\<geqslant\>1>>>>>|\<nobracket\>>>>>>>
+    </equation*>
+
+    <\equation*>
+      <tabular|<tformat|<table|<row|<cell|b<rsub|n>>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|\<pi\>>f<around*|(|x|)>sin
+      n x d x,n=0,1,2,\<ldots\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|\<pi\>><big|int><rsub|0><rsup|\<pi\>>sin
+      n x d x-<frac|1|\<pi\>><big|int><rsub|-\<pi\>><rsup|0>sin n x d
+      x>>|<row|<cell|>|<cell|=>|<cell|<around*|{|<tabular|<tformat|<table|<row|<cell|<frac|4|\<pi\>>>|<cell|\<#FF0C\>n=1>>|<row|<cell|0>|<cell|,wherelse>>>>>|\<nobracket\>>>>>>>
+    </equation*>
+
+    \;
 
     <item*|\<#FF13\>>\<#628A\> <math|f<around*|(|x|)>=x-<around*|[|x|]>>
     \<#5728\> <math|<around*|[|0,1|]>>\<#4E0A\>\<#5C55\>\<#5F00\>\<#4E3A\>

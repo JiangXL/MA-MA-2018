@@ -12,10 +12,9 @@
 
   \<#548C\>\<#6B63\>\<#9879\>\<#7EA7\>\<#6570\>\<#76F8\>\<#6BD4\>\<#FF0C\>\<#5C31\>\<#5DEE\>\<#6D4B\>\<#5EA6\>\<#FF0E\>
 
-  \;
-
-  \<#5B9A\>\<#7406\> 11.1 \<#82E5\> <math|f> \<#662F\>
-  <math|<around*|[|a,+\<infty\>|)>> \<#4E0A\>\<#7684\>\<#975E\>\<#8D1F\>\<#51FD\>\<#6570\>\<#FF0C\>\<#5219\>\<#79EF\>\<#5206\>
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 11.1> \<#82E5\> <math|f>
+  \<#662F\> <math|<around*|[|a,+\<infty\>|)>>
+  \<#4E0A\>\<#7684\>\<#975E\>\<#8D1F\>\<#51FD\>\<#6570\>\<#FF0C\>\<#5219\>\<#79EF\>\<#5206\>
 
   <\equation*>
     <big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x|)>d x
@@ -25,7 +24,7 @@
   <math|<big|int><rsup|A><rsub|a>f<around*|(|x|)>d x> \<#5728\>
   <math|<around*|[|a,+\<infty\>|)>> \<#4E0A\>\<#6709\>\<#754C\>\<#FF0E\>
 
-  \<#5B9A\>\<#7406\> 11.2(\<#6BD4\>\<#503C\>)
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 11.2>(\<#6BD4\>\<#503C\>)
   \<#8BBE\>\<#5BF9\>\<#4E8E\>\<#5145\>\<#5206\>\<#5927\>\<#7684\> <math|x>,
   \<#51FD\>\<#6570\> <math|f> \<#548C\> <math|g>
   \<#6EE1\>\<#8DB3\>\<#4E0D\>\<#7B49\>\<#5F0F\>
@@ -51,7 +50,8 @@
     <tabular|<tformat|<table|<row|<cell|<big|int><rsub|a><rsup|+\<infty\>><frac|1|x<rsup|p>><around*|(|a\<gtr\>0|)><around*|{|<tabular|<tformat|<table|<row|<cell|p\<gtr\>1\<#65F6\>\<#6536\>\<#655B\>>>|<row|<cell|p\<leqslant\>1\<#65F6\>\<#53D1\>\<#6563\>>>>>>|\<nobracket\>>>>|<row|<cell|>>>>>
   </equation*>
 
-  \<#5B9A\>\<#7406\> 11.3 (\<#6BD4\>\<#503C\>\<#7684\>\<#6781\>\<#9650\>\<#5F62\>\<#5F0F\>)
+  <with|font-series|bold|\<#5B9A\>\<#7406\> 11.3
+  >(\<#6BD4\>\<#503C\>\<#7684\>\<#6781\>\<#9650\>\<#5F62\>\<#5F0F\>)
   \<#8BBE\> <math|f> \<#548C\> <math|g> \<#90FD\>\<#662F\>
   <math|<around*|[|a,+\<infty\>|)>> \<#4E0A\>\<#7684\>\<#975E\>\<#8D1F\>\<#51FD\>\<#6570\>\<#FF0C\>\<#4E14\>
 
@@ -411,6 +411,28 @@
   x|x>|\|>\<less\>1>
 
   \;
+
+  \;
+
+  \<#8BC1\>\<#660E\>\<#6536\>\<#655B\>\<#FF1A\>
+
+  <\equation*>
+    <big|int><rsub|0><rsup|\<infty\>><frac|1|1+x<rsup|2><around*|\||sin
+    x|\|>>d x
+  </equation*>
+
+  \<#8BC1\>\<#660E\>:
+
+  <\equation*>
+    <tabular|<tformat|<table|<row|<cell|<big|int><rsub|0><rsup|\<infty\>>=<big|int><rsub|0><rsup|\<pi\>>+<big|int><rsub|\<pi\>><rsup|+\<infty\>>>>>>>
+  </equation*>
+
+  <math|\<Rightarrow\><big|int>>
+
+  <\equation*>
+    <big|int><rsub|n\<pi\>><rsup|n\<pi\>+\<pi\>><frac|d
+    x|1+x<rsup|2><around*|\||sin x|\|>>=<big|int>
+  </equation*>
 </body>
 
 <\initial>
