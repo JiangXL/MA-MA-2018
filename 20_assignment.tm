@@ -1,4 +1,4 @@
-<TeXmacs|1.99.6>
+<TeXmacs|1.99.5>
 
 <style|<tuple|generic|chinese>>
 
@@ -132,6 +132,12 @@
         x,0\<less\>u<rsub|0>\<less\>u\<less\>+\<infty\>;
       </equation*>
 
+      \<#6839\>\<#636E\> Dirichlet \<#5224\>\<#522B\>\<#6CD5\>\<#FF0C\>
+      <math|<big|int><rsub|0><rsup|+\<infty\>>sin x d x>
+      \<#4E00\>\<#81F4\>\<#6709\>\<#754C\>\<#FF0C\>\<#4E14\> <math|e<rsup|-u
+      x>> \<#4E00\>\<#81F4\>\<#8D8B\>\<#4E8E\> 0.
+      \<#6545\>\<#79EF\>\<#5206\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0E\>
+
       \;
 
       <item*|\<#FF08\>3\<#FF09\>>
@@ -141,12 +147,19 @@
         d x,0\<leqslant\>u\<less\>+\<infty\>;
       </equation*>
 
+      \<#56E0\>\<#4E3A\><math|<around*|\||<frac|1|1+<around*|(|x+u|)><rsup|2>>|\|>\<less\><frac|1|x<rsup|2>>>,
+      \<#4E14\> <math|<big|int><rsub|-\<infty\>><rsup|+\<infty\>><frac|1|x<rsup|2>>>
+      \<#6536\>\<#655B\>\<#FF0C\>\<#6839\>\<#636E\> Weierstrass
+      \<#5224\>\<#522B\>\<#6CD5\>\<#77E5\>\<#FF0C\>\<#539F\>\<#79EF\>\<#5206\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0E\>
+
       <item*|\<#FF08\>5\<#FF09\>>
 
       <\equation*>
         <big|int><rsub|0><rsup|+\<infty\>><sqrt|u>e<rsup|-u x<rsup|2>>d
         x,0\<leqslant\>u\<less\>+\<infty\>.
       </equation*>
+
+      \;
     </description>
 
     <item*|2>\<#6C42\>\<#8BC1\>\<#79EF\>\<#5206\>
@@ -180,7 +193,7 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-2|<tuple|2|?>>
+    <associate|auto-2|<tuple|2|2>>
   </collection>
 </references>
 
@@ -190,6 +203,10 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#542B\>\<#53C2\>\<#53D8\>\<#91CF\>\<#7684\>\<#5E38\>\<#4E49\>\<#79EF\>\<#5206\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#542B\>\<#53C2\>\<#53D8\>\<#91CF\>\<#53CD\>\<#5E38\>\<#79EF\>\<#5206\>\<#7684\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
