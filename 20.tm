@@ -335,7 +335,153 @@
     </equation*>
   </theorem>
 
-  <subsection|\<#6027\>\<#8D28\>>
+  <subsection|\<#542B\>\<#53C2\>\<#53D8\>\<#91CF\>\<#53CD\>\<#5E38\>\<#79EF\>\<#5206\>\<#7684\>\<#6027\>\<#8D28\>>
+
+  <\equation*>
+    \<varphi\><around*|(|u|)>=<big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x,u|)>d
+    x
+  </equation*>
+
+  \<#79EF\>\<#5206\>\<#7684\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#6027\>\<#4FDD\>\<#8BC1\>\<#4E86\>
+  <math|\<varphi\>> \<#7684\>\<#8FDE\>\<#7EED\>\<#6027\>\<#FF0C\>\<#6709\>\<#4EE5\>\<#4E0B\>\<#5B9A\>\<#7406\>:
+
+  <\theorem>
+    \<#5982\>\<#679C\>\<#51FD\>\<#6570\> <math|f<around*|(|x,u|)>> \<#5728\>
+    <math|<around*|[|a,+\<infty\>|]>\<times\><around*|[|\<alpha\>,\<beta\>|]>>
+    \<#4E0A\>\<#8FDE\>\<#7EED\>\<#FF0C\>\<#800C\>\<#4E14\>\<#79EF\>\<#5206\>
+    <math|<big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x,u|)>>dx \<#5728\>
+    <math|<around*|[|\<alpha\>,\<beta\>|]>>
+    \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0C\>\<#90A3\>\<#4E48\>
+    <math|<big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x,u|)>d x> \<#5728\>
+    <math|<around*|[|\<alpha\>,\<beta\>|]>>
+    \<#4E0A\>\<#8FDE\>\<#7EED\>\<#FF0E\>
+
+    <\proof>
+      \<#7531\>\<#4E8E\> <math|<big|int><rsub|a><rsup|+<rsub|\<infty\>>>f<around*|(|x,u|)>d
+      x> \<#5728\> <math|<around*|[|\<alpha\>,\<beta\>|]>>
+      \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0C\>\<#6545\>\<#5BF9\>\<#4EFB\>\<#610F\>
+      <math|\<varepsilon\>\<gtr\>0>, \<#5B58\>\<#5728\>
+      <math|A<rsub|0>\<gtr\>a>, \<#4F7F\>\<#5F97\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+
+      <\equation*>
+        <around*|\||<big|int><rsub|A<rsub|0>><rsup|+\<infty\>>f<around*|(|x,u|)>d
+        x|\|>\<less\><frac|\<varepsilon\>|3>
+      </equation*>
+
+      \<#5BF9\> <math|<around*|[|\<alpha\>,\<beta\>|]>>\<#4E2D\>\<#6240\>\<#6709\>\<#7684\>
+      <math|u> \<#6210\>\<#7ACB\>\<#FF0E\>\<#53EF\>\<#4EE5\>\<#53D1\>\<#73B0\>
+      <math|<big|int><rsub|a><rsup|A<rsub|0>>f<around*|(|x,u|)>d x> \<#662F\>
+      <math|<around*|[|\<alpha\>\<comma\>\<beta\>|]>>
+      \<#4E2D\>\<#7684\>\<#8FDE\>\<#7EED\>\<#51FD\>\<#6570\>\<#FF0C\>\<#56E0\>\<#800C\>\<#5BF9\>\<#4EFB\>\<#610F\>
+      <math|u<rsub|0>\<in\><around*|[|\<alpha\>,\<beta\>|]>>,
+      \<#4EFB\>\<#610F\> <math|\<varepsilon\>\<gtr\>0>, \<#5B58\>\<#5728\>
+      <math|\<delta\>\<gtr\>0>, \<#5F53\>
+      <math|u\<in\><around*|[|\<alpha\>,\<beta\>|]>>\<#4E14\>
+      <math|<around*|\||u-u<rsub|0>|\|>\<less\>\<delta\>> \<#65F6\>\<#FF0C\>
+
+      <\equation*>
+        <around*|\||<big|int><rsub|a><rsup|A<rsub|0>>f<around*|(|x,u|)>d
+        x-<big|int><rsub|a><rsup|A<rsub|0>>f*<around*|(|x,u<rsub|0>|)>|\|>\<less\><frac|\<varepsilon\>|3>.
+      </equation*>
+
+      \<#4E8E\>\<#662F\>\<#5F53\> <math|u\<in\><around*|[|\<alpha\>,\<beta\>|]>>
+      \<#4E14\> <math|<around*|\||u-u<rsub|0>|\|>\<less\>\<delta\>>
+      \<#65F6\>,
+
+      <\equation*>
+        <tabular|<tformat|<table|<row|<cell|<around*|\||\<varphi\><around*|(|u|)>-\<varphi\><around*|(|u<rsub|0>|)>|\|>>|<cell|=>|<cell|<around*|\||<big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x,u|)>d
+        x-<big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x,u<rsub|0>|)>|\|>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|<around*|\|||\|>>>>>>
+      </equation*>
+
+      \;
+    </proof>
+  </theorem>
+
+  \<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#662F\>\<#5145\>\<#5206\>\<#7684\>\<#800C\>\<#975E\>\<#5FC5\>\<#8981\>\<#7684\>\<#FF0E\>
+
+  <\theorem>
+    (Dini) \<#8BBE\> <math|f<around*|(|x,u|)>> \<#5728\>
+    <math|<around*|[|a,+\<infty\>|]>\<times\><around*|[|\<alpha\>,\<beta\>|]>>
+    \<#4E0A\>\<#8FDE\>\<#7EED\>\<#4E14\>\<#975E\>\<#8D1F\>\<#FF0E\>\<#5982\>\<#679C\>
+    <math|\<varphi\>> \<#5728\> <math|<around*|[|\<alpha\>,\<beta\>|]>>
+    \<#4E0A\>\<#8FDE\>\<#7EED\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#79EF\>\<#5206\>
+    <math|<big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x,u|)>d x> \<#5728\>
+    <math|<around*|[|\<alpha\>,\<beta\>|]>>
+    \<#4E0A\>\<#4E00\>\<#81F4\>\<#8FDE\>\<#7EED\>\<#FF0E\>
+  </theorem>
+
+  <\theorem>
+    \<#8BBE\> <math|<around*|[|\<alpha\>,\<beta\>|]>>
+    \<#662F\>\<#4E00\><with|font-series|bold|\<#6709\>\<#9650\>>\<#533A\>\<#95F4\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5728\>\<#5B9A\>\<#7406\>3
+    \<#7684\>\<#6761\>\<#4EF6\>(\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>)\<#FF0C\>
+    <math|\<varphi\>> \<#5728\> <math|<around*|[|\<alpha\>,\<beta\>|]>>
+    \<#4E0A\>\<#53EF\>\<#79EF\>\<#FF0C\>\<#800C\>\<#4E14\>
+
+    <\equation*>
+      <big|int><rsup|\<beta\>><rsub|\<alpha\>>\<varphi\><around*|(|u|)>d
+      u=<big|int><rsub|a><rsup|+\<infty\>><around*|(|<big|int><rsub|a><rsup|\<beta\>><around*|(|x,u|)>d
+      u|)>d x
+    </equation*>
+
+    \<#4E5F\>\<#5C31\>\<#662F\>\<#8BF4\>\<#FF0C\>\<#5BF9\> <math|x> \<#4E0E\>
+    <math|u> \<#7684\>\<#79EF\>\<#5206\>\<#6B21\>\<#5E8F\>\<#53EF\>\<#4EE5\>\<#4EA4\>\<#6362\>\<#FF1A\>
+
+    <\equation*>
+      <big|int><rsup|\<beta\>><rsub|\<alpha\>><around*|(|<big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x,u|)>d
+      x|)>d u=<big|int><rsup|+\<infty\>><rsub|a><around*|(|<big|int><rsup|\<beta\>><rsub|\<alpha\>>f<around*|(|x,u|)>d
+      u|)>d x
+    </equation*>
+
+    \;
+  </theorem>
+
+  \<#4E0B\>\<#9762\>\<#6211\>\<#4EEC\>\<#5C06\>\<#8BA8\>\<#8BBA\>\<#4E24\>\<#4E2A\>\<#65E0\>\<#7A77\>\<#533A\>\<#95F4\>\<#662F\>\<#5426\>\<#53EF\>\<#4EE5\>\<#6536\>\<#655B\>\<#FF0E\>
+
+  <\theorem>
+    \<#5982\>\<#679C\> <math|f> \<#6EE1\>\<#8DB3\>\<#4E0B\>\<#5217\>\<#6761\>\<#4EF6\>\<#FF1A\>
+
+    <\enumerate>
+      <item>f \<#5728\> <math|<around*|[|a,+\<infty\>|]>\<times\><around*|[|\<alpha\>,+\<infty\>|]>>
+      \<#4E0A\>\<#8FDE\>\<#7EED\>\<#FF1B\>
+
+      <item>\<#79EF\>\<#5206\>
+
+      <\equation*>
+        <big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x,u|)>d
+        x,<big|int><rsub|\<alpha\>><rsup|+\<infty\>>f<around*|(|x,u|)>d u
+      </equation*>
+
+      \<#5206\>\<#522B\>\<#5173\>\<#4E8E\> <math|u>
+      \<#5728\>\<#4EFB\>\<#4F55\>\<#533A\>\<#95F4\>
+      <math|<around*|[|\<alpha\>,\<beta\>|]>>
+      \<#4E0A\>\<#FF0C\>\<#5173\>\<#4E8E\> <math|x>
+      \<#5728\>\<#4EFB\>\<#4F55\>\<#533A\>\<#95F4\> <math|<around*|[|a,b|]>>
+      \<#4E0A\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF1B\>
+
+      <item>\<#79EF\>\<#5206\>
+
+      <\equation*>
+        <big|int><rsup|+\<infty\>><rsub|a><around*|(|<big|int><rsub|\<alpha\>><rsup|+\<infty\>><around*|\||f<around*|(|x,u|)>|\|>d
+        u|)>d x,<big|int><rsub|\<alpha\>><rsup|+\<infty\>><around*|(|<big|int><rsub|a><rsup|+\<infty\>><around*|\||f<around*|(|x,u|)>|\|>d
+        x|)>d u
+      </equation*>
+
+      \<#4E2D\>\<#81F3\>\<#5C11\>\<#6709\>\<#4E00\>\<#4E2A\>\<#5B58\>\<#5728\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#79EF\>\<#5206\>
+
+      <\equation*>
+        <big|int><rsub|a><rsup|+\<infty\>><around*|(||)>
+      </equation*>
+    </enumerate>
+  </theorem>
+
+  <\example>
+    \<#8BA1\>\<#7B97\>\<#79EF\>\<#5206\> <math|<big|int><rsub|0><rsup|+\<infty\>><frac|sin
+    x|x>d x.>
+
+    \;
+  </example>
+
+  \;
 </body>
 
 <\initial>
@@ -350,7 +496,7 @@
   <\collection>
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-2|<tuple|2|2>>
-    <associate|auto-3|<tuple|3|?>>
+    <associate|auto-3|<tuple|3|4>>
   </collection>
 </references>
 
@@ -364,6 +510,10 @@
       <with|par-left|<quote|1tab>|2<space|2spc>\<#542B\>\<#53C2\>\<#53D8\>\<#91CF\>\<#53CD\>\<#5E38\>\<#79EF\>\<#5206\>\<#7684\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|1tab>|3<space|2spc>\<#542B\>\<#53C2\>\<#53D8\>\<#91CF\>\<#53CD\>\<#5E38\>\<#79EF\>\<#5206\>\<#7684\>\<#6027\>\<#8D28\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3>>
     </associate>
   </collection>
 </auxiliary>
