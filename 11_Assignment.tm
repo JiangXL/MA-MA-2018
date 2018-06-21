@@ -17,14 +17,16 @@
       x> \<#6536\>\<#655B\>
 
       <item*|4)><math|<big|int><rsub|e><rsup|+\<infty\>><frac|d
-      x|x<around*|(|log x|)><rsup|p>>> \<#6536\>\<#655B\>
+      x|x<around*|(|log x|)><rsup|p>>> \<#6536\>\<#655B\>\ 
 
       <item*|6)><math|<big|int><rsub|1><rsup|+\<infty\>><frac|<around*|(|log
       x|)><rsup|p>|1+x<rsup|2>>d x,p\<gtr\>0>. \<#6536\>\<#655B\>
 
       <\equation*>
-        lim<rsub|n\<rightarrow\>\<infty\>><frac|<frac|<around*|(|lnx|)><rsup|p>|1+x<rsup|2>>|<frac|1|x<rsup|3/2>>>=lim<rsub|n\<rightarrow\>\<infty\>><frac|x<rsup|3/2>|1+x<rsup|2>><around*|(|ln
-        x|)><rsup|p>=
+        lim<rsub|n\<rightarrow\>\<infty\>><frac|<frac|<around*|(|ln
+        x|)><rsup|p>|1+x<rsup|2>>|<frac|1|x<rsup|3/2>>>=lim<rsub|n\<rightarrow\>\<infty\>><frac|x<rsup|3/2>|1+x<rsup|2>><around*|(|ln
+        x|)><rsup|p>=lim<rsub|n\<rightarrow\>\<infty\>><frac|<around*|(|ln
+        x|)><rsup|p>|x<rsup|1/2>>
       </equation*>
     </description>
 
@@ -245,6 +247,14 @@
       Dirichlet \<#548C\> Abel \<#5224\>\<#522B\>\<#6CD5\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|1tab>|3<space|2spc>\<#7455\>\<#79EF\>\<#5206\>\<#7684\>\<#6536\>\<#655B\>\<#5224\>\<#522B\>\<#6CD5\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3>>
+
+      <with|par-left|<quote|1tab>|4<space|2spc>\<#4E60\>\<#9898\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4>>
     </associate>
   </collection>
 </auxiliary>

@@ -30,9 +30,9 @@
   \<#5728\> <math|u<rsub|0>> \<#5904\>\<#8FDE\>\<#7EED\>\<#610F\>\<#5473\>\<#7740\>
 
   <\equation*>
-    lim<rsub|n\<rightarrow\>n<rsub|0>>\<varphi\><around*|(|u|)>=\<varphi\><around*|(|u<rsub|0>|)>
-    \<#53CA\> lim<rsub|n\<rightarrow\>n<rsub|0>><big|int><rsub|a><rsup|b>f<around*|(|x,u|)>d
-    x=<big|int><rsub|a><rsup|b>lim<rsub|n\<rightarrow\>n<rsub|0>>f<around*|(|x,u|)>
+    lim<rsub|u\<rightarrow\>u<rsub|0>>\<varphi\><around*|(|u|)>=\<varphi\><around*|(|u<rsub|0>|)>
+    \<#53CA\> lim<rsub|u\<rightarrow\>u<rsub|0>><big|int><rsub|a><rsup|b>f<around*|(|x,u|)>d
+    x=<big|int><rsub|a><rsup|b>lim<rsub|u\<rightarrow\>u<rsub|0>>f<around*|(|x,u|)>
     d x
   </equation*>
 
@@ -401,13 +401,13 @@
 
   <\theorem>
     (Dini) \<#8BBE\> <math|f<around*|(|x,u|)>> \<#5728\>
-    <math|<around*|[|a,+\<infty\>|]>\<times\><around*|[|\<alpha\>,\<beta\>|]>>
+    <math|<around*|[|a,+\<infty\>|)>\<times\><around*|[|\<alpha\>,\<beta\>|]>>
     \<#4E0A\>\<#8FDE\>\<#7EED\>\<#4E14\>\<#975E\>\<#8D1F\>\<#FF0E\>\<#5982\>\<#679C\>
     <math|\<varphi\>> \<#5728\> <math|<around*|[|\<alpha\>,\<beta\>|]>>
     \<#4E0A\>\<#8FDE\>\<#7EED\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#79EF\>\<#5206\>
     <math|<big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x,u|)>d x> \<#5728\>
     <math|<around*|[|\<alpha\>,\<beta\>|]>>
-    \<#4E0A\>\<#4E00\>\<#81F4\>\<#8FDE\>\<#7EED\>\<#FF0E\>
+    \<#4E0A\>\<#4E00\>\<#81F4\>\<#8FDE\>\<#7EED\>.
   </theorem>
 
   <\theorem>
@@ -477,8 +477,6 @@
   <\example>
     \<#8BA1\>\<#7B97\>\<#79EF\>\<#5206\> <math|<big|int><rsub|0><rsup|+\<infty\>><frac|sin
     x|x>d x.>
-
-    \;
   </example>
 
   \;

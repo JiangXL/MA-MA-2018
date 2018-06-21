@@ -136,10 +136,10 @@
       </equation*>
 
       \<#6839\>\<#636E\> Dirichlet \<#5224\>\<#522B\>\<#6CD5\>\<#FF0C\>
-      <math|<big|int><rsub|0><rsup|+\<infty\>>sin x d x>
-      \<#4E00\>\<#81F4\>\<#6709\>\<#754C\>\<#FF0C\>\<#4E14\> <math|e<rsup|-u
-      x>> \<#4E00\>\<#81F4\>\<#8D8B\>\<#4E8E\> 0.
-      \<#6545\>\<#79EF\>\<#5206\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0E\>(\<#53EF\>\<#4EE5\>\<#7528\>Weierstrass
+      <math|<around*|\|||\<nobracket\>><big|int><rsub|0><rsup|+\<infty\>>sin
+      x d x<around*|\|||\<nobracket\>>> \<#4E00\>\<#81F4\>\<#6709\>\<#754C\>\<#FF0C\>\<#4E14\>
+      <math|e<rsup|-u x>> \<#5355\>\<#8C03\>\<#4E00\>\<#81F4\>\<#8D8B\>\<#4E8E\>
+      0. \<#6545\>\<#79EF\>\<#5206\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0E\>(\<#53EF\>\<#4EE5\>\<#7528\>Weierstrass
       \<#5B9A\>\<#7406\>)
 
       <item*|\<#FF08\>3\<#FF09\>>
@@ -150,8 +150,8 @@
       </equation*>
 
       \<#56E0\>\<#4E3A\><math|<around*|\||<frac|1|1+<around*|(|x+u|)><rsup|2>>|\|>\<less\><frac|1|x<rsup|2>>>,
-      \<#4E14\> <math|<big|int><rsub|-\<infty\>><rsup|+\<infty\>><frac|1|x<rsup|2>>>
-      \<#6536\>\<#655B\>\<#FF0C\>\<#6839\>\<#636E\> Weierstrass
+      \<#4E14\> <math|<big|int><rsub|-\<infty\>><rsup|+\<infty\>><frac|1|x<rsup|2>>d
+      x> \<#6536\>\<#655B\>\<#FF0C\>\<#6839\>\<#636E\> Weierstrass
       \<#5224\>\<#522B\>\<#6CD5\>\<#77E5\>\<#FF0C\>\<#539F\>\<#79EF\>\<#5206\>\<#4E00\>\<#81F4\>\<#6536\>\<#655B\>\<#FF0E\>
 
       <item*|\<#FF08\>5\<#FF09\>>

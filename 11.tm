@@ -12,17 +12,18 @@
 
   \<#548C\>\<#6B63\>\<#9879\>\<#7EA7\>\<#6570\>\<#76F8\>\<#6BD4\>\<#FF0C\>\<#5C31\>\<#5DEE\>\<#6D4B\>\<#5EA6\>\<#FF0E\>
 
-  <with|font-series|bold|\<#5B9A\>\<#7406\> 11.1> \<#82E5\> <math|f>
-  \<#662F\> <math|<around*|[|a,+\<infty\>|)>>
-  \<#4E0A\>\<#7684\>\<#975E\>\<#8D1F\>\<#51FD\>\<#6570\>\<#FF0C\>\<#5219\>\<#79EF\>\<#5206\>
+  <\theorem>
+    \<#82E5\> <math|f> \<#662F\> <math|<around*|[|a,+\<infty\>|)>>
+    \<#4E0A\>\<#7684\>\<#975E\>\<#8D1F\>\<#51FD\>\<#6570\>\<#FF0C\>\<#5219\>\<#79EF\>\<#5206\>
 
-  <\equation*>
-    <big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x|)>d x
-  </equation*>
+    <\equation*>
+      <big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x|)>d x
+    </equation*>
 
-  \<#6536\>\<#655B\>\<#7684\>\<#5145\>\<#8981\>\<#6761\>\<#4EF6\>\<#662F\>
-  <math|<big|int><rsup|A><rsub|a>f<around*|(|x|)>d x> \<#5728\>
-  <math|<around*|[|a,+\<infty\>|)>> \<#4E0A\>\<#6709\>\<#754C\>\<#FF0E\>
+    \<#6536\>\<#655B\>\<#7684\>\<#5145\>\<#8981\>\<#6761\>\<#4EF6\>\<#662F\>
+    <math|<big|int><rsup|A><rsub|a>f<around*|(|x|)>d x> \<#5728\>
+    <math|<around*|[|a,+\<infty\>|)>> \<#4E0A\>\<#6709\>\<#754C\>\<#FF0E\>
+  </theorem>
 
   <with|font-series|bold|\<#5B9A\>\<#7406\> 11.2>(\<#6BD4\>\<#503C\>)
   \<#8BBE\>\<#5BF9\>\<#4E8E\>\<#5145\>\<#5206\>\<#5927\>\<#7684\> <math|x>,
@@ -213,7 +214,7 @@
   \<#90A3\>\<#4E48\>\<#79EF\>\<#5206\>\<#FF0C\>
 
   <\equation*>
-    <big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x|)>g<around*|(|x|)>
+    <big|int><rsub|a><rsup|+\<infty\>>f<around*|(|x|)>g<around*|(|x|)>d x
   </equation*>
 
   \<#6536\>\<#655B\>\<#FF0E\>
